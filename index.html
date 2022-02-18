@@ -5,9 +5,13 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>Title</title>
 </head>
-<body>
 
+<body onload="loadDataFromJson()">
+    <div id="pokemonView">
+<!--        view will be built dynamically in JS-->
+    </div>
 </body>
 
+<script type="application/json" src="data/pokemon/pokemons.json"></script>
 <script src="models/scripts.js"></script>
 </html>
