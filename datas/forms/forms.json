@@ -1,0 +1,2862 @@
+{
+    "Castform (Sunny)": {
+        "id": 351,
+        "name": "Castform (Sunny)",
+        "forms": ["Castform", "Castform (Rainy)", "Castform (Snowy)"],
+        "types": ["Fire"],
+        "species": "Weather Pokémon",
+        "height": "1′00\"",
+        "weight": "1.8 lbs",
+        "abilities": ["Forecast"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous and Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 70
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 70
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 351,
+            "entry": "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!"
+        },
+        "etymology": "forecast and form"
+    },
+    "Castform (Rainy)": {
+        "id": 351,
+        "name": "Castform (Rainy)",
+        "forms": ["Castform", "Castform (Sunny)", "Castform (Snowy)"],
+        "types": ["Water"],
+        "species": "Weather Pokémon",
+        "height": "1′00\"",
+        "weight": "1.8 lbs",
+        "abilities": ["Forecast"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous and Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 70
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 70
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 351,
+            "entry": "This is Castform’s form when pelted by rain. In an experiment where it was placed in a shower, this Pokémon didn’t change to this form."
+        },
+        "etymology": "forecast and form"
+    },
+    "Castform (Snowy)": {
+        "id": 351,
+        "name": "Castform (Snowy)",
+        "forms": ["Castform", "Castform (Sunny)", "Castform (Rainy)"],
+        "types": ["Ice"],
+        "species": "Weather Pokémon",
+        "height": "1′00\"",
+        "weight": "1.8 lbs",
+        "abilities": ["Forecast"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous and Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 70
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 70
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 351,
+            "entry": "This is Castform’s form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!"
+        },
+        "etymology": "forecast and form"
+    },
+    "Kyogre (Primal)": {
+        "id": 382,
+        "name": "Kyogre (Primal)",
+        "forms": ["Kyogre"],
+        "types": ["Water"],
+        "species": "Sea Basin Pokémon",
+        "height": "32′02\"",
+        "weight": "948.0 lbs",
+        "abilities": ["Primordial Sea"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 150
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 180
+            },
+            {
+                "name": "Sp. Def",
+                "value": 160
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Kyogre", "Kyogre (Primal)"]],
+        "pokedex": {
+            "id": 382,
+            "entry": "Kyogre is said to be the personification of the sea itself. Legends tell of its many clashes against Groudon, as each sought to gain the power of nature."
+        },
+        "etymology": "kai and orca"
+    },
+    "Groudon (Primal)": {
+        "id": 383,
+        "name": "Groudon (Primal)",
+        "forms": ["Groudon"],
+        "types": ["Ground", "Fire"],
+        "species": "Continent Pokémon",
+        "height": "16′05\"",
+        "weight": "2204.0 lbs",
+        "abilities": ["Desolate Land"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 180
+            },
+            {
+                "name": "Def",
+                "value": 160
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 150
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Groudon", "Groudon (Primal)"]],
+        "pokedex": {
+            "id": 383,
+            "entry": "Through Primal Reversion and with nature’s full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world."
+        },
+        "etymology": "ground and don"
+    },
+    "Deoxys (Attack)": {
+        "id": 386,
+        "name": "Deoxys (Attack)",
+        "forms": ["Deoxys", "Deoxys (Defense)", "Deoxys (Speed)"],
+        "types": ["Psychic"],
+        "species": "DNA Pokémon",
+        "height": "5′07\"",
+        "weight": "134.0 lbs",
+        "abilities": ["Pressure"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 180
+            },
+            {
+                "name": "Def",
+                "value": 20
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 180
+            },
+            {
+                "name": "Sp. Def",
+                "value": 20
+            },
+            {
+                "name": "Spd",
+                "value": 150
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 386,
+            "entry": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon."
+        },
+        "etymology": "deoxyribonucleic acid"
+    },
+    "Deoxys (Defense)": {
+        "id": 386,
+        "name": "Deoxys (Defense)",
+        "forms": ["Deoxys", "Deoxys (Attack)", "Deoxys (Speed)"],
+        "types": ["Psychic"],
+        "species": "DNA Pokémon",
+        "height": "5′07\"",
+        "weight": "134.0 lbs",
+        "abilities": ["Pressure"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 160
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 70
+            },
+            {
+                "name": "Sp. Def",
+                "value": 160
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 386,
+            "entry": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon."
+        },
+        "etymology": "deoxyribonucleic acid"
+    },
+    "Deoxys (Speed)": {
+        "id": 386,
+        "name": "Deoxys (Speed)",
+        "forms": ["Deoxys", "Deoxys (Attack)", "Deoxys (Defense)"],
+        "types": ["Psychic"],
+        "species": "DNA Pokémon",
+        "height": "5′07\"",
+        "weight": "134.0 lbs",
+        "abilities": ["Pressure"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 95
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 180
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 386,
+            "entry": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon."
+        },
+        "etymology": "deoxyribonucleic acid"
+    },
+    "Burmy (Sandy)": {
+        "id": 412,
+        "name": "Burmy (Sandy)",
+        "forms": ["Burmy (Plant)", "Burmy (Trash)"],
+        "types": ["Bug"],
+        "species": "Bagworm Pokémon",
+        "height": "0′08\"",
+        "weight": "7.5 lbs",
+        "abilities": ["Shed Skin"],
+        "hiddenAbilities": ["Overcoat"],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 40
+            },
+            {
+                "name": "Atk",
+                "value": 29
+            },
+            {
+                "name": "Def",
+                "value": 45
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 29
+            },
+            {
+                "name": "Sp. Def",
+                "value": 45
+            },
+            {
+                "name": "Spd",
+                "value": 36
+            }
+        ],
+        "evolutionNames": [["Burmy (Sandy)", "Wormadam (Sandy)"], ["Burmy (Sandy)", "Mothim"]],
+        "pokedex": {
+            "id": 412,
+            "entry": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby."
+        },
+        "etymology": "bagworm and wormy"
+    },
+    "Burmy (Trash)": {
+        "id": 412,
+        "name": "Burmy (Trash)",
+        "forms": ["Burmy (Plant)", "Burmy (Sandy)"],
+        "types": ["Bug"],
+        "species": "Bagworm Pokémon",
+        "height": "0′08\"",
+        "weight": "7.5 lbs",
+        "abilities": ["Shed Skin"],
+        "hiddenAbilities": ["Overcoat"],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 40
+            },
+            {
+                "name": "Atk",
+                "value": 29
+            },
+            {
+                "name": "Def",
+                "value": 45
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 29
+            },
+            {
+                "name": "Sp. Def",
+                "value": 45
+            },
+            {
+                "name": "Spd",
+                "value": 36
+            }
+        ],
+        "evolutionNames": [["Burmy (Trash)", "Wormadam (Trash)"], ["Burmy (Trash)", "Mothim"]],
+        "pokedex": {
+            "id": 412,
+            "entry": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby."
+        },
+        "etymology": "bagworm and wormy"
+    },
+    "Wormadam (Sandy)": {
+        "id": 413,
+        "name": "Wormadam (Sandy)",
+        "forms": ["Wormadam (Plant)", "Wormadam (Trash)"],
+        "types": ["Bug", "Ground"],
+        "species": "Bagworm Pokémon",
+        "height": "1′08\"",
+        "weight": "14.3 lbs",
+        "abilities": ["Anticipation"],
+        "hiddenAbilities": ["Overcoat"],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 79
+            },
+            {
+                "name": "Def",
+                "value": 105
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 59
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 36
+            }
+        ],
+        "evolutionNames": [["Burmy (Sandy)", "Wormadam (Sandy)"]],
+        "pokedex": {
+            "id": 413,
+            "entry": "When Burmy evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed."
+        },
+        "etymology": "bagworm and madam"
+    },
+    "Wormadam (Trash)": {
+        "id": 413,
+        "name": "Wormadam (Trash)",
+        "forms": ["Wormadam (Plant)", "Wormadam (Sandy)"],
+        "types": ["Bug", "Steel"],
+        "species": "Bagworm Pokémon",
+        "height": "1′08\"",
+        "weight": "14.3 lbs",
+        "abilities": ["Anticipation"],
+        "hiddenAbilities": ["Overcoat"],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 69
+            },
+            {
+                "name": "Def",
+                "value": 95
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 69
+            },
+            {
+                "name": "Sp. Def",
+                "value": 95
+            },
+            {
+                "name": "Spd",
+                "value": 36
+            }
+        ],
+        "evolutionNames": [["Burmy (Trash)", "Wormadam (Trash)"]],
+        "pokedex": {
+            "id": 413,
+            "entry": "When Burmy evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed."
+        },
+        "etymology": "bagworm and madam"
+    },
+    "Cherrim (Sunshine)": {
+        "id": 421,
+        "name": "Cherrim (Sunshine)",
+        "forms": ["Cherrim (Overcast)"],
+        "types": ["Grass"],
+        "species": "Blossom Pokémon",
+        "height": "1′08\"",
+        "weight": "20.5 lbs",
+        "abilities": ["Flower Gift"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy and Grass",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 60
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 87
+            },
+            {
+                "name": "Sp. Def",
+                "value": 78
+            },
+            {
+                "name": "Spd",
+                "value": 85
+            }
+        ],
+        "evolutionNames": [["Cherubi", "Cherrim (Sunshine)"]],
+        "pokedex": {
+            "id": 421,
+            "entry": "After absorbing plenty of sunlight, Cherrim takes this form. It’s full of energy while it’s like this, and its liveliness will go on until sundown."
+        },
+        "etymology": "cherry and cherubim"
+    },
+    "Shellos (West)": {
+        "id": 422,
+        "name": "Shellos (West)",
+        "forms": ["Shellos (East)"],
+        "types": ["Water"],
+        "species": "Sea Slug Pokémon",
+        "height": "1′00\"",
+        "weight": "13.9 lbs",
+        "abilities": ["Sticky Hold", "Storm Drain"],
+        "hiddenAbilities": ["Sand Force"],
+        "eggGroup": "Amorphous and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 76
+            },
+            {
+                "name": "Atk",
+                "value": 48
+            },
+            {
+                "name": "Def",
+                "value": 48
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 57
+            },
+            {
+                "name": "Sp. Def",
+                "value": 62
+            },
+            {
+                "name": "Spd",
+                "value": 34
+            }
+        ],
+        "evolutionNames": [["Shellos (West)", "Gastrodon (West)"]],
+        "pokedex": {
+            "id": 422,
+            "entry": "Its shape and coloration vary, depending on its habitat."
+        },
+        "etymology": "shell and lost"
+    },
+    "Gastrodon (West)": {
+        "id": 423,
+        "name": "Gastrodon (West)",
+        "forms": ["Gastrodon (East)"],
+        "types": ["Water", "Ground"],
+        "species": "Sea Slug Pokémon",
+        "height": "2′11\"",
+        "weight": "65.9 lbs",
+        "abilities": ["Sticky Hold", "Storm Drain"],
+        "hiddenAbilities": ["Sand Force"],
+        "eggGroup": "Amorphous and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 111
+            },
+            {
+                "name": "Atk",
+                "value": 83
+            },
+            {
+                "name": "Def",
+                "value": 68
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 92
+            },
+            {
+                "name": "Sp. Def",
+                "value": 82
+            },
+            {
+                "name": "Spd",
+                "value": 39
+            }
+        ],
+        "evolutionNames": [["Shellos (West)", "Gastrodon (West)"]],
+        "pokedex": {
+            "id": 423,
+            "entry": "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools."
+        },
+        "etymology": "gastropod and don"
+    },
+    "Rotom (Heat)": {
+        "id": 479,
+        "name": "Rotom (Heat)",
+        "forms": ["Rotom", "Rotom (Wash)", "Rotom (Frost)", "Rotom (Fan)", "Rotom (Mow)"],
+        "types": ["Electric", "Fire"],
+        "species": "Plasma Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 107
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 107
+            },
+            {
+                "name": "Spd",
+                "value": 86
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 479,
+            "entry": "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames."
+        },
+        "etymology": "motor"
+    },
+    "Rotom (Wash)": {
+        "id": 479,
+        "name": "Rotom (Wash)",
+        "forms": ["Rotom", "Rotom (Heat)", "Rotom (Frost)", "Rotom (Fan)", "Rotom (Mow)"],
+        "types": ["Electric", "Water"],
+        "species": "Plasma Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 107
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 107
+            },
+            {
+                "name": "Spd",
+                "value": 86
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 479,
+            "entry": "This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don’t want your room flooded."
+        },
+        "etymology": "motor"
+    },
+    "Rotom (Frost)": {
+        "id": 479,
+        "name": "Rotom (Frost)",
+        "forms": ["Rotom", "Rotom (Heat)", "Rotom (Wash)", "Rotom (Fan)", "Rotom (Mow)"],
+        "types": ["Electric", "Ice"],
+        "species": "Plasma Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 107
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 107
+            },
+            {
+                "name": "Spd",
+                "value": 86
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 479,
+            "entry": "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air."
+        },
+        "etymology": "motor"
+    },
+    "Rotom (Fan)": {
+        "id": 479,
+        "name": "Rotom (Fan)",
+        "forms": ["Rotom", "Rotom (Heat)", "Rotom (Wash)", "Rotom (Frost)", "Rotom (Mow)"],
+        "types": ["Electric", "Flying"],
+        "species": "Plasma Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 107
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 107
+            },
+            {
+                "name": "Spd",
+                "value": 86
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 479,
+            "entry": "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find."
+        },
+        "etymology": "motor"
+    },
+    "Rotom (Mow)": {
+        "id": 479,
+        "name": "Rotom (Mow)",
+        "forms": ["Rotom", "Rotom (Heat)", "Rotom (Wash)", "Rotom (Frost)", "Rotom (Fan)"],
+        "types": ["Electric", "Grass"],
+        "species": "Plasma Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 107
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 107
+            },
+            {
+                "name": "Spd",
+                "value": 86
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 479,
+            "entry": "This is Rotom after it’s seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere."
+        },
+        "etymology": "motor"
+    },
+    "Giratina (Origin)": {
+        "id": 487,
+        "name": "Giratina (Origin)",
+        "forms": ["Giratina (Altered)"],
+        "types": ["Ghost", "Dragon"],
+        "species": "Renegade Pokémon",
+        "height": "22′08\"",
+        "weight": "1433.0 lbs",
+        "abilities": ["Levitate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 150
+            },
+            {
+                "name": "Atk",
+                "value": 120
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 120
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 487,
+            "entry": "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
+        },
+        "etymology": "girasol and platina"
+    },
+    "Unfezant (Female)": {
+        "id": 521,
+        "name": "Unfezant (Female)",
+        "forms": ["Unfezant (Male)"],
+        "types": ["Normal", "Flying"],
+        "species": "Proud Pokémon",
+        "height": "3′11\"",
+        "weight": "63.9 lbs",
+        "abilities": ["Big Pecks", "Super Luck"],
+        "hiddenAbilities": ["Rivalry"],
+        "eggGroup": "Flying",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 115
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 55
+            },
+            {
+                "name": "Spd",
+                "value": 93
+            }
+        ],
+        "evolutionNames": [["Pidove", "Tranquill", "Unfezant (Female)"]],
+        "pokedex": {
+            "id": 521,
+            "entry": "Females of this species are very capable fliers, particularly notable for their stamina. They also take longer to adjust to people."
+        },
+        "etymology": "unfazed and pheasant"
+    },
+    "Basculin (Blue)": {
+        "id": 550,
+        "name": "Basculin (Blue)",
+        "forms": ["Basculin (Red)"],
+        "types": ["Water"],
+        "species": "Hostile Pokémon",
+        "height": "3′03\"",
+        "weight": "39.7 lbs",
+        "abilities": ["Rock Head", "Adaptability"],
+        "hiddenAbilities": ["Mold Breaker"],
+        "eggGroup": "Water 2",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 92
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 55
+            },
+            {
+                "name": "Spd",
+                "value": 98
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 550,
+            "entry": "Blue-striped Basculin used to be a common food source. They apparently have an inoffensive, light flavor."
+        },
+        "etymology": "bass and masculine"
+    },
+    "Darmanitan (Zen)": {
+        "id": 555,
+        "name": "Darmanitan (Zen)",
+        "forms": ["Darmanitan (Standard)", "Galarian Darmanitan (Standard)", "Galarian Darmanitan (Zen)"],
+        "types": ["Fire", "Psychic"],
+        "species": "Blazing Pokémon",
+        "height": "4′03\"",
+        "weight": "204.8 lbs",
+        "abilities": ["Sheer Force"],
+        "hiddenAbilities": ["Zen Mode"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 105
+            },
+            {
+                "name": "Atk",
+                "value": 30
+            },
+            {
+                "name": "Def",
+                "value": 105
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 140
+            },
+            {
+                "name": "Sp. Def",
+                "value": 105
+            },
+            {
+                "name": "Spd",
+                "value": 55
+            }
+        ],
+        "evolutionNames": [["Darmanitan (Standard)", "Darmanitan (Zen)"]],
+        "pokedex": {
+            "id": 555,
+            "entry": "Through meditation, it calms its raging spirit and hones its psychic powers."
+        },
+        "etymology": "daruma and orangutan"
+    },
+    "Frillish (Female)": {
+        "id": 592,
+        "name": "Frillish (Female)",
+        "forms": ["Frillish (Male)"],
+        "types": ["Water", "Ghost"],
+        "species": "Floating Pokémon",
+        "height": "3′11\"",
+        "weight": "72.8 lbs",
+        "abilities": ["Water Absorb", "Cursed Body"],
+        "hiddenAbilities": ["Damp"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 55
+            },
+            {
+                "name": "Atk",
+                "value": 40
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 40
+            }
+        ],
+        "evolutionNames": [["Frillish (Female)", "Jellicent (Female)"]],
+        "pokedex": {
+            "id": 592,
+            "entry": "Using the invisible poison spikes on its veillike arms and legs, it paralyzes its enemies and causes them to drown."
+        },
+        "etymology": "frill and jellyfish"
+    },
+    "Jellicent (Female)": {
+        "id": 593,
+        "name": "Jellicent (Female)",
+        "forms": ["Jellicent (Male)"],
+        "types": ["Water", "Ghost"],
+        "species": "Floating Pokémon",
+        "height": "7′03\"",
+        "weight": "297.6 lbs",
+        "abilities": ["Water Absorb", "Cursed Body"],
+        "hiddenAbilities": ["Damp"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 60
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 85
+            },
+            {
+                "name": "Sp. Def",
+                "value": 105
+            },
+            {
+                "name": "Spd",
+                "value": 60
+            }
+        ],
+        "evolutionNames": [["Frillish (Female)", "Jellicent (Female)"]],
+        "pokedex": {
+            "id": 593,
+            "entry": "Fishermen are terrified of Jellicent. It’s rumored to drag them into the sea and steal their lives away."
+        },
+        "etymology": "jellyfish and magnificent"
+    },
+    "Tornadus (Therian)": {
+        "id": 641,
+        "name": "Tornadus (Therian)",
+        "forms": ["Tornadus (Incarnate)"],
+        "types": ["Flying"],
+        "species": "Cyclone Pokémon",
+        "height": "4′07\"",
+        "weight": "138.9 lbs",
+        "abilities": ["Regenerator"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 79
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 110
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 121
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 641,
+            "entry": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
+        },
+        "etymology": "tornado and -us"
+    },
+    "Thundurus (Therian)": {
+        "id": 642,
+        "name": "Thundurus (Therian)",
+        "forms": ["Thundurus (Incarnate)"],
+        "types": ["Electric", "Flying"],
+        "species": "Bolt Strike Pokémon",
+        "height": "9′10\"",
+        "weight": "134.5 lbs",
+        "abilities": ["Volt Absorb"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 79
+            },
+            {
+                "name": "Atk",
+                "value": 105
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 145
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 101
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 642,
+            "entry": "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked."
+        },
+        "etymology": "thunder and -us"
+    },
+    "Landorus (Therian)": {
+        "id": 645,
+        "name": "Landorus (Therian)",
+        "forms": ["Landorus (Incarnate)"],
+        "types": ["Ground", "Flying"],
+        "species": "Abundance Pokémon",
+        "height": "4′03\"",
+        "weight": "149.9 lbs",
+        "abilities": ["Intimidate"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 89
+            },
+            {
+                "name": "Atk",
+                "value": 149
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 105
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 91
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 645,
+            "entry": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
+        },
+        "etymology": "land and -us"
+    },
+    "Kyurem (Black)": {
+        "id": 646,
+        "name": "Kyurem (Black)",
+        "forms": ["Kyurem", "Kyurem (White)"],
+        "types": ["Dragon", "Ice"],
+        "species": "Boundary Pokémon",
+        "height": "10′10\"",
+        "weight": "716.5 lbs",
+        "abilities": ["Teravolt"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 125
+            },
+            {
+                "name": "Atk",
+                "value": 170
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 120
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 95
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 646,
+            "entry": "It’s said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon."
+        },
+        "etymology": "kyuurei"
+    },
+    "Kyurem (White)": {
+        "id": 646,
+        "name": "Kyurem (White)",
+        "forms": ["Kyurem", "Kyurem (Black)"],
+        "types": ["Dragon", "Ice"],
+        "species": "Boundary Pokémon",
+        "height": "11′10\"",
+        "weight": "716.5 lbs",
+        "abilities": ["Turboblaze"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 125
+            },
+            {
+                "name": "Atk",
+                "value": 120
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 170
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 95
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 646,
+            "entry": "The sameness of Reshiram’s and Kyurem’s genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice."
+        },
+        "etymology": "kyuurei"
+    },
+    "Keldeo (Resolute)": {
+        "id": 647,
+        "name": "Keldeo (Resolute)",
+        "forms": ["Keldeo (Ordinary)"],
+        "types": ["Water", "Fighting"],
+        "species": "Colt Pokémon",
+        "height": "4′07\"",
+        "weight": "106.9 lbs",
+        "abilities": ["Justified"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 91
+            },
+            {
+                "name": "Atk",
+                "value": 72
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 129
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 108
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 647,
+            "entry": "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form."
+        },
+        "etymology": "kelpie and rodeo"
+    },
+    "Meloetta (Pirouette)": {
+        "id": 648,
+        "name": "Meloetta (Pirouette)",
+        "forms": ["Meloetta (Aria)"],
+        "types": ["Normal", "Fighting"],
+        "species": "Melody Pokémon",
+        "height": "2′00\"",
+        "weight": "14.3 lbs",
+        "abilities": ["Serene Grace"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 128
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 77
+            },
+            {
+                "name": "Sp. Def",
+                "value": 77
+            },
+            {
+                "name": "Spd",
+                "value": 128
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 648,
+            "entry": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it."
+        },
+        "etymology": "melody and pirouette"
+    },
+    "Meowstic (Female)": {
+        "id": 678,
+        "name": "Meowstic (Female)",
+        "forms": ["Meowstic (Male)"],
+        "types": ["Psychic"],
+        "species": "Constraint Pokémon",
+        "height": "2′00\"",
+        "weight": "18.7 lbs",
+        "abilities": ["Keen Eye", "Infiltrator"],
+        "hiddenAbilities": ["Competitive"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 74
+            },
+            {
+                "name": "Atk",
+                "value": 48
+            },
+            {
+                "name": "Def",
+                "value": 76
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 83
+            },
+            {
+                "name": "Sp. Def",
+                "value": 81
+            },
+            {
+                "name": "Spd",
+                "value": 104
+            }
+        ],
+        "evolutionNames": [["Espurr", "Meowstic (Female)"]],
+        "pokedex": {
+            "id": 678,
+            "entry": "Females are a bit more selfish and aggressive than males. If they don’t get what they want, they will torment you with their psychic abilities."
+        },
+        "etymology": "meow and mystic"
+    },
+    "Aegislash (Blade)": {
+        "id": 681,
+        "name": "Aegislash (Blade)",
+        "forms": ["Aegislash (Shield)"],
+        "types": ["Steel", "Ghost"],
+        "species": "Royal Sword Pokémon",
+        "height": "5′07\"",
+        "weight": "116.8 lbs",
+        "abilities": ["Stance Change"],
+        "hiddenAbilities": [],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 140
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 140
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 60
+            }
+        ],
+        "evolutionNames": [["Honedge", "Doublade", "Aegislash (Blade)"]],
+        "pokedex": {
+            "id": 681,
+            "entry": "This stance is dedicated to offense. It can cleave any opponent with the strength and weight of its steel blade."
+        },
+        "etymology": "aegis and slash"
+    },
+    "Pumpkaboo (Small)": {
+        "id": 710,
+        "name": "Pumpkaboo (Small)",
+        "forms": ["Pumpkaboo (Average)", "Pumpkaboo (Large)", "Pumpkaboo (Super)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "1′00\"",
+        "weight": "7.7 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 44
+            },
+            {
+                "name": "Atk",
+                "value": 66
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 44
+            },
+            {
+                "name": "Sp. Def",
+                "value": 55
+            },
+            {
+                "name": "Spd",
+                "value": 56
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Small)", "Gourgeist (Small)"]],
+        "pokedex": {
+            "id": 710,
+            "entry": "When taking spirits to the afterlife, small Pumpkaboo prefer the spirits of children to those of adults."
+        },
+        "etymology": "pumpkin and peek-a-boo"
+    },
+    "Pumpkaboo (Large)": {
+        "id": 710,
+        "name": "Pumpkaboo (Large)",
+        "forms": ["Pumpkaboo (Average)", "Pumpkaboo (Small)", "Pumpkaboo (Super)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "1′08\"",
+        "weight": "16.5 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 54
+            },
+            {
+                "name": "Atk",
+                "value": 66
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 44
+            },
+            {
+                "name": "Sp. Def",
+                "value": 55
+            },
+            {
+                "name": "Spd",
+                "value": 46
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Large)", "Gourgeist (Large)"]],
+        "pokedex": {
+            "id": 710,
+            "entry": "When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children."
+        },
+        "etymology": "pumpkin and peek-a-boo"
+    },
+    "Pumpkaboo (Super)": {
+        "id": 710,
+        "name": "Pumpkaboo (Super)",
+        "forms": ["Pumpkaboo (Average)", "Pumpkaboo (Small)", "Pumpkaboo (Large)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "2′07\"",
+        "weight": "33.1 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 59
+            },
+            {
+                "name": "Atk",
+                "value": 66
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 44
+            },
+            {
+                "name": "Sp. Def",
+                "value": 55
+            },
+            {
+                "name": "Spd",
+                "value": 41
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Super)", "Gourgeist (Super)"]],
+        "pokedex": {
+            "id": 710,
+            "entry": "Supersized Pumpkaboo are very partial to the spirits of people who were of similarly superior proportions."
+        },
+        "etymology": "pumpkin and peek-a-boo"
+    },
+    "Gourgeist (Small)": {
+        "id": 711,
+        "name": "Gourgeist (Small)",
+        "forms": ["Gourgeist (Average)", "Gourgeist (Large)", "Gourgeist (Super)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "2′04\"",
+        "weight": "20.9 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 55
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 122
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 58
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 99
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Small)", "Gourgeist (Small)"]],
+        "pokedex": {
+            "id": 711,
+            "entry": "Small Gourgeist pretend to be children to fool adults. Anyone who falls for the act gets carried away to the hereafter."
+        },
+        "etymology": "gourd and poltergeist"
+    },
+    "Gourgeist (Large)": {
+        "id": 711,
+        "name": "Gourgeist (Large)",
+        "forms": ["Gourgeist (Average)", "Gourgeist (Small)", "Gourgeist (Super)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "3′07\"",
+        "weight": "30.9 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 122
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 58
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 69
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Large)", "Gourgeist (Large)"]],
+        "pokedex": {
+            "id": 711,
+            "entry": "Large Gourgeist put on the guise of adults, taking the hands of children to lead them to the afterlife."
+        },
+        "etymology": "gourd and poltergeist"
+    },
+    "Gourgeist (Super)": {
+        "id": 711,
+        "name": "Gourgeist (Super)",
+        "forms": ["Gourgeist (Average)", "Gourgeist (Small)", "Gourgeist (Large)"],
+        "types": ["Ghost", "Grass"],
+        "species": "Pumpkin Pokémon",
+        "height": "5′07\"",
+        "weight": "86.0 lbs",
+        "abilities": ["Pickup", "Frisk"],
+        "hiddenAbilities": ["Insomnia"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 85
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 122
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 58
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 54
+            }
+        ],
+        "evolutionNames": [["Pumpkaboo (Super)", "Gourgeist (Super)"]],
+        "pokedex": {
+            "id": 711,
+            "entry": "Supersized Gourgeist aren’t picky. They will forcefully drag anyone off to the afterlife."
+        },
+        "etymology": "gourd and poltergeist"
+    },
+    "Zygarde (10%)": {
+        "id": 718,
+        "name": "Zygarde (10%)",
+        "forms": ["Zygarde (50%)", "Zygarde (Complete)"],
+        "types": ["Dragon", "Ground"],
+        "species": "Order Pokémon",
+        "height": "3′11\"",
+        "weight": "73.9 lbs",
+        "abilities": ["Aura Break", "Power Construct"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 54
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 71
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 61
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 115
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 718,
+            "entry": "Born when around 10% of Zygarde’s cells have been gathered from all over, this form is skilled in close-range combat."
+        },
+        "etymology": "Z and garde"
+    },
+    "Zygarde (Complete)": {
+        "id": 718,
+        "name": "Zygarde (Complete)",
+        "forms": ["Zygarde (10%)", "Zygarde (50%)"],
+        "types": ["Dragon", "Ground"],
+        "species": "Order Pokémon",
+        "height": "14′09\"",
+        "weight": "1344.8 lbs",
+        "abilities": ["Power Construct"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 216
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 121
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 91
+            },
+            {
+                "name": "Sp. Def",
+                "value": 95
+            },
+            {
+                "name": "Spd",
+                "value": 85
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 718,
+            "entry": "Born when all of Zygarde’s cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
+        },
+        "etymology": "Z and garde"
+    },
+    "Hoopa (Unbound)": {
+        "id": 720,
+        "name": "Hoopa (Unbound)",
+        "forms": ["Hoopa (Confined)"],
+        "types": ["Psychic", "Dark"],
+        "species": "Djinn Pokémon",
+        "height": "21′04\"",
+        "weight": "1080.3 lbs",
+        "abilities": ["Magician"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 160
+            },
+            {
+                "name": "Def",
+                "value": 60
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 170
+            },
+            {
+                "name": "Sp. Def",
+                "value": 130
+            },
+            {
+                "name": "Spd",
+                "value": 80
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 720,
+            "entry": "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form."
+        },
+        "etymology": "hoop"
+    },
+    "Oricorio (Pom-Pom)": {
+        "id": 741,
+        "name": "Oricorio (Pom-Pom)",
+        "forms": ["Oricorio (Baile)", "Oricorio (Pa'u)", "Oricorio (Sensu)"],
+        "types": ["Electric", "Flying"],
+        "species": "Dancing Pokémon",
+        "height": "2′00\"",
+        "weight": "7.5 lbs",
+        "abilities": ["Dancer"],
+        "hiddenAbilities": [],
+        "eggGroup": "Flying",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 98
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 93
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 741,
+            "entry": "This Oricorio has drunk bright yellow nectar. When it sees someone looking glum, it will try to cheer them up with a dance."
+        },
+        "etymology": "oriole, choreography, and oratorio"
+    },
+    "Oricorio (Pa'u)": {
+        "id": 741,
+        "name": "Oricorio (Pa'u)",
+        "forms": ["Oricorio (Baile)", "Oricorio (Pom-Pom)", "Oricorio (Sensu)"],
+        "types": ["Psychic", "Flying"],
+        "species": "Dancing Pokémon",
+        "height": "2′00\"",
+        "weight": "7.5 lbs",
+        "abilities": ["Dancer"],
+        "hiddenAbilities": [],
+        "eggGroup": "Flying",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 98
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 93
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 741,
+            "entry": "This Oricorio has sipped pink nectar. It gets so caught up in its dancing that it sometimes doesn’t hear its Trainer’s orders."
+        },
+        "etymology": "oriole, choreography, and oratorio"
+    },
+    "Oricorio (Sensu)": {
+        "id": 741,
+        "name": "Oricorio (Sensu)",
+        "forms": ["Oricorio (Baile)", "Oricorio (Pom-Pom)", "Oricorio (Pa'u)"],
+        "types": ["Ghost", "Flying"],
+        "species": "Dancing Pokémon",
+        "height": "2′00\"",
+        "weight": "7.5 lbs",
+        "abilities": ["Dancer"],
+        "hiddenAbilities": [],
+        "eggGroup": "Flying",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 70
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 98
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 93
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 741,
+            "entry": "This Oricorio has sipped purple nectar. Some dancers use its graceful, elegant dancing as inspiration."
+        },
+        "etymology": "oriole, choreography, and oratorio"
+    },
+    "Rockruff (Own Tempo)": {
+        "id": 744,
+        "name": "Rockruff (Own Tempo)",
+        "forms": ["Rockruff"],
+        "types": ["Rock"],
+        "species": "Puppy Pokémon",
+        "height": "1′08\"",
+        "weight": "20.3 lbs",
+        "abilities": ["Own Tempo"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 45
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 40
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 30
+            },
+            {
+                "name": "Sp. Def",
+                "value": 40
+            },
+            {
+                "name": "Spd",
+                "value": 60
+            }
+        ],
+        "evolutionNames": [["Rockruff (Own Tempo)", "Lycanroc (Dusk)"]],
+        "pokedex": {
+            "id": 744,
+            "entry": "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging."
+        },
+        "etymology": "rock and ruff"
+    },
+    "Lycanroc (Midnight)": {
+        "id": 745,
+        "name": "Lycanroc (Midnight)",
+        "forms": ["Lycanroc (Midday)", "Lycanroc (Dusk)"],
+        "types": ["Rock"],
+        "species": "Wolf Pokémon",
+        "height": "3′07\"",
+        "weight": "55.1 lbs",
+        "abilities": ["Keen Eye", "Vital Spirit"],
+        "hiddenAbilities": ["No Guard"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 85
+            },
+            {
+                "name": "Atk",
+                "value": 115
+            },
+            {
+                "name": "Def",
+                "value": 75
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 55
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 82
+            }
+        ],
+        "evolutionNames": [["Rockruff", "Lycanroc (Midnight)"]],
+        "pokedex": {
+            "id": 745,
+            "entry": "This form of Lycanroc is reckless. It charges headlong at its opponents, attacking without any care about what injuries it might receive."
+        },
+        "etymology": "lycanthrope and rock"
+    },
+    "Lycanroc (Dusk)": {
+        "id": 745,
+        "name": "Lycanroc (Dusk)",
+        "forms": ["Lycanroc (Midday)", "Lycanroc (Midnight)"],
+        "types": ["Rock"],
+        "species": "Wolf Pokémon",
+        "height": "2′07\"",
+        "weight": "55.1 lbs",
+        "abilities": ["Tough Claws"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 117
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 55
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 110
+            }
+        ],
+        "evolutionNames": [["Rockruff (Own Tempo)", "Lycanroc (Dusk)"]],
+        "pokedex": {
+            "id": 745,
+            "entry": "This form of Lycanroc is normally calm and quiet. Once a battle begins, however, this Pokémon displays a ferocious fighting spirit."
+        },
+        "etymology": "lycanthrope and rock"
+    },
+    "Wishiwashi (School)": {
+        "id": 746,
+        "name": "Wishiwashi (School)",
+        "forms": ["Wishiwashi (Solo)"],
+        "types": ["Water"],
+        "species": "Small Fry Pokémon",
+        "height": "26′11\"",
+        "weight": "173.3 lbs",
+        "abilities": ["Schooling"],
+        "hiddenAbilities": [],
+        "eggGroup": "Water 2",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 45
+            },
+            {
+                "name": "Atk",
+                "value": 140
+            },
+            {
+                "name": "Def",
+                "value": 130
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 140
+            },
+            {
+                "name": "Sp. Def",
+                "value": 135
+            },
+            {
+                "name": "Spd",
+                "value": 30
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 746,
+            "entry": "On their own, they’re very weak. But when Wishiwashi pool their power together in a school, they become a demon of the sea."
+        },
+        "etymology": "wishy-washy"
+    },
+    "Minior (Core)": {
+        "id": 774,
+        "name": "Minior (Core)",
+        "forms": ["Minior (Meteor)"],
+        "types": ["Rock", "Flying"],
+        "species": "Meteor Pokémon",
+        "height": "1′00\"",
+        "weight": "0.7 lbs",
+        "abilities": ["Shields Down"],
+        "hiddenAbilities": [],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 60
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 100
+            },
+            {
+                "name": "Sp. Def",
+                "value": 60
+            },
+            {
+                "name": "Spd",
+                "value": 120
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 774,
+            "entry": "This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate."
+        },
+        "etymology": "mini and meteor"
+    },
+    "Necrozma (Dusk)": {
+        "id": 800,
+        "name": "Necrozma (Dusk)",
+        "forms": ["Necrozma", "Necrozma (Dawn)", "Necrozma (Ultra)"],
+        "types": ["Psychic", "Steel"],
+        "species": "Prism Pokémon",
+        "height": "12′06\"",
+        "weight": "1014.1 lbs",
+        "abilities": ["Prism Armor"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 97
+            },
+            {
+                "name": "Atk",
+                "value": 157
+            },
+            {
+                "name": "Def",
+                "value": 127
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 113
+            },
+            {
+                "name": "Sp. Def",
+                "value": 109
+            },
+            {
+                "name": "Spd",
+                "value": 77
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 800,
+            "entry": "When it dominates Solgaleo, it takes on this form. It’s a vicious Pokémon, mangling prey with its many claws—including those on its back."
+        },
+        "etymology": "nekros and prisma"
+    },
+    "Necrozma (Dawn)": {
+        "id": 800,
+        "name": "Necrozma (Dawn)",
+        "forms": ["Necrozma", "Necrozma (Dusk)", "Necrozma (Ultra)"],
+        "types": ["Psychic", "Ghost"],
+        "species": "Prism Pokémon",
+        "height": "13′09\"",
+        "weight": "771.6 lbs",
+        "abilities": ["Prism Armor"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 97
+            },
+            {
+                "name": "Atk",
+                "value": 113
+            },
+            {
+                "name": "Def",
+                "value": 109
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 157
+            },
+            {
+                "name": "Sp. Def",
+                "value": 127
+            },
+            {
+                "name": "Spd",
+                "value": 77
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 800,
+            "entry": "Necrozma has subjugated Lunala entirely, forcing the unfortunate Pokémon to emit its light energy for Necrozma to consume."
+        },
+        "etymology": "nekros and prisma"
+    },
+    "Necrozma (Ultra)": {
+        "id": 800,
+        "name": "Necrozma (Ultra)",
+        "forms": ["Necrozma", "Necrozma (Dusk)", "Necrozma (Dawn)"],
+        "types": ["Psychic", "Dragon"],
+        "species": "Prism Pokémon",
+        "height": "24′07\"",
+        "weight": "507.1 lbs",
+        "abilities": ["Neuroforce"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 97
+            },
+            {
+                "name": "Atk",
+                "value": 167
+            },
+            {
+                "name": "Def",
+                "value": 97
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 167
+            },
+            {
+                "name": "Sp. Def",
+                "value": 97
+            },
+            {
+                "name": "Spd",
+                "value": 129
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 800,
+            "entry": "The light pouring out from all over its body affects living things and nature, impacting them in various ways."
+        },
+        "etymology": "nekros and prisma"
+    },
+    "Toxtricity (Amped)": {
+        "id": 849,
+        "name": "Toxtricity (Amped)",
+        "forms": ["Toxtricity (Low Key)", "Gigantamax Toxtricity"],
+        "types": ["Electric", "Poison"],
+        "species": "Punk Pokémon",
+        "height": "5′03\"",
+        "weight": "88.2 lbs",
+        "abilities": ["Punk Rock", "Plus"],
+        "hiddenAbilities": ["Technician"],
+        "eggGroup": "Human-Like",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 98
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 114
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 75
+            }
+        ],
+        "evolutionNames": [["Toxel", "Toxtricity (Amped)"]],
+        "pokedex": {
+            "id": 849,
+            "entry": "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity."
+        },
+        "etymology": "toxic and electricity"
+    },
+    "Eiscue (Noice)": {
+        "id": 875,
+        "name": "Eiscue (Noice)",
+        "forms": ["Eiscue (Ice)"],
+        "types": ["Ice"],
+        "species": "Penguin Pokémon",
+        "height": "4′07\"",
+        "weight": "196.2 lbs",
+        "abilities": ["Ice Face"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 80
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 130
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 875,
+            "entry": "The ice covering this Pokémon’s face has shattered, revealing a slightly worried expression that many people are enamored with."
+        },
+        "etymology": "ice cube"
+    },
+    "Indeedee (Female)": {
+        "id": 876,
+        "name": "Indeedee (Female)",
+        "forms": ["Indeedee (Male)"],
+        "types": ["Psychic", "Normal"],
+        "species": "Emotion Pokémon",
+        "height": "2′11\"",
+        "weight": "61.7 lbs",
+        "abilities": ["Own Tempo", "Synchronize"],
+        "hiddenAbilities": ["Psychic Surge"],
+        "eggGroup": "Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 55
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 95
+            },
+            {
+                "name": "Sp. Def",
+                "value": 105
+            },
+            {
+                "name": "Spd",
+                "value": 85
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 876,
+            "entry": "These intelligent Pokémon touch horns with each other to share information between them."
+        },
+        "etymology": "indeed"
+    },
+    "Morpeko (Hangry)": {
+        "id": 877,
+        "name": "Morpeko (Hangry)",
+        "forms": ["Morpeko (Full Belly)"],
+        "types": ["Electric", "Dark"],
+        "species": "Two-Sided Pokémon",
+        "height": "1′00\"",
+        "weight": "6.6 lbs",
+        "abilities": ["Hunger Switch"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy and Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 58
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 58
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 70
+            },
+            {
+                "name": "Sp. Def",
+                "value": 58
+            },
+            {
+                "name": "Spd",
+                "value": 97
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 877,
+            "entry": "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy."
+        },
+        "etymology": "morumotto and harapeko"
+    },
+    "Zacian (Hero)": {
+        "id": 888,
+        "name": "Zacian (Hero)",
+        "forms": ["Zacian (Crowned)"],
+        "types": ["Fairy"],
+        "species": "Warrior Pokémon",
+        "height": "9′02\"",
+        "weight": "242.5 lbs",
+        "abilities": ["Intrepid Sword"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 92
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 115
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 115
+            },
+            {
+                "name": "Spd",
+                "value": 138
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 888,
+            "entry": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle."
+        },
+        "etymology": "cyan"
+    },
+    "Zamazenta (Hero)": {
+        "id": 889,
+        "name": "Zamazenta (Hero)",
+        "forms": ["Zamazenta (Crowned)"],
+        "types": ["Fighting"],
+        "species": "Warrior Pokémon",
+        "height": "9′06\"",
+        "weight": "463.0 lbs",
+        "abilities": ["Dauntless Shield"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 92
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 115
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 115
+            },
+            {
+                "name": "Spd",
+                "value": 138
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 889,
+            "entry": "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle."
+        },
+        "etymology": "magenta"
+    },
+    "Eternatus (Eternamax)": {
+        "id": 890,
+        "name": "Eternatus (Eternamax)",
+        "forms": ["Eternatus"],
+        "types": ["Poison", "Dragon"],
+        "species": "Gigantic Pokémon",
+        "height": "328′01\"",
+        "weight": "??? lbs",
+        "abilities": [],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 255
+            },
+            {
+                "name": "Atk",
+                "value": 115
+            },
+            {
+                "name": "Def",
+                "value": 250
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 125
+            },
+            {
+                "name": "Sp. Def",
+                "value": 250
+            },
+            {
+                "name": "Spd",
+                "value": 130
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 890,
+            "entry": "As a result of Rose’s meddling, Eternatus absorbed all the energy in the Galar region. It’s now in a state of power overload."
+        },
+        "etymology": "eternal"
+    },
+    "Urshifu (Rapid)": {
+        "id": 892,
+        "name": "Urshifu (Rapid)",
+        "forms": ["Urshifu (Single)", "Gigantamax Urshifu (Rapid)"],
+        "types": ["Fighting", "Water"],
+        "species": "Wushu Pokémon",
+        "height": "6′03\"",
+        "weight": "231.5 lbs",
+        "abilities": ["Unseen Fist"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 63
+            },
+            {
+                "name": "Sp. Def",
+                "value": 60
+            },
+            {
+                "name": "Spd",
+                "value": 97
+            }
+        ],
+        "evolutionNames": [["Kubfu", "Urshifu (Rapid)"]],
+        "pokedex": {
+            "id": 892,
+            "entry": "It’s believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm."
+        },
+        "etymology": "ursa and wushu"
+    },
+    "Calyrex (Ice)": {
+        "id": 898,
+        "name": "Calyrex (Ice)",
+        "forms": ["Calyrex", "Calyrex (Shadow)"],
+        "types": ["Psychic", "Ice"],
+        "species": "King Pokémon",
+        "height": "7′10\"",
+        "weight": "1783.8 lbs",
+        "abilities": ["As One"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 165
+            },
+            {
+                "name": "Def",
+                "value": 150
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 85
+            },
+            {
+                "name": "Sp. Def",
+                "value": 130
+            },
+            {
+                "name": "Spd",
+                "value": 50
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 898,
+            "entry": "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents’ wounds after battle."
+        },
+        "etymology": "calyx (bud) and rex (king)"
+    },
+    "Calyrex (Shadow)": {
+        "id": 898,
+        "name": "Calyrex (Shadow)",
+        "forms": ["Calyrex", "Calyrex (Ice)"],
+        "types": ["Psychic", "Ghost"],
+        "species": "King Pokémon",
+        "height": "7′10\"",
+        "weight": "118.2 lbs",
+        "abilities": ["As One"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 165
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 150
+            }
+        ],
+        "evolutionNames": [[]],
+        "pokedex": {
+            "id": 898,
+            "entry": "It’s said that Calyrex and a Pokémon that had bonded with it ran all across the Galar region to bring green to the wastelands."
+        },
+        "etymology": "calyx (bud) and rex (king)"
+    }
+}

@@ -1,0 +1,794 @@
+{
+    "Alolan Rattata": {
+        "id": 19,
+        "name": "Alolan Rattata",
+        "forms": ["Rattata"],
+        "types": ["Dark", "Normal"],
+        "species": "Mouse Pokémon",
+        "height": "1'00\"",
+        "weight": "8.4 lbs",
+        "abilities": ["Gluttony", "Hustle"],
+        "hiddenAbilities": ["Thick Fat"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 30
+            },
+            {
+                "name": "Atk",
+                "value": 56
+            },
+            {
+                "name": "Def",
+                "value": 35
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 25
+            },
+            {
+                "name": "Sp. Def",
+                "value": 35
+            },
+            {
+                "name": "Spd",
+                "value": 72
+            }
+        ],
+        "evolutionNames": [["Alolan Rattata", "Alolan Raticate"]],
+        "pokedex": {
+            "id": 19,
+            "entry": "Night after night, they sneak into people’s homes seeking food. A massive outbreak of them has become an issue of public concern."
+        },
+        "etymology": "rat and attack"
+    },
+    "Alolan Raticate": {
+        "id": 20,
+        "name": "Alolan Raticate",
+        "forms": ["Raticate"],
+        "types": ["Dark", "Normal"],
+        "species": "Mouse Pokémon",
+        "height": "2'04\"",
+        "weight": "56.2 lbs",
+        "abilities": ["Gluttony", "Hustle"],
+        "hiddenAbilities": ["Thick Fat"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 71
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 40
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 77
+            }
+        ],
+        "evolutionNames": [["Alolan Rattata", "Alolan Raticate"]],
+        "pokedex": {
+            "id": 20,
+            "entry": "It commands a nest of Rattata. Different nests don’t get along, whipping up severe fights over feeding grounds."
+        },
+        "etymology": "rat and eradicate"
+    },
+    "Alolan Raichu": {
+        "id": 26,
+        "name": "Alolan Raichu",
+        "forms": ["Raichu"],
+        "types": ["Electric", "Psychic"],
+        "species": "Mouse Pokémon",
+        "height": "2'04\"",
+        "weight": "46.3 lbs",
+        "abilities": ["Surge Surfer"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy and Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 95
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 110
+            }
+        ],
+        "evolutionNames": [["Pichu", "Pikachu", "Alolan Raichu"]],
+        "pokedex": {
+            "id": 26,
+            "entry": "It’s believed that the weather, climate, and food of the Alola region all play a part in causing Pikachu to evolve into this form of Raichu."
+        },
+        "etymology": "rai and chu"
+    },
+    "Alolan Sandshrew": {
+        "id": 27,
+        "name": "Alolan Sandshrew",
+        "forms": ["Sandshrew"],
+        "types": ["Ice", "Steel"],
+        "species": "Mouse Pokémon",
+        "height": "2'04\"",
+        "weight": "88.2 lbs",
+        "abilities": ["Snow Cloak"],
+        "hiddenAbilities": ["Slush Rush"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 50
+            },
+            {
+                "name": "Atk",
+                "value": 75
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 10
+            },
+            {
+                "name": "Sp. Def",
+                "value": 35
+            },
+            {
+                "name": "Spd",
+                "value": 40
+            }
+        ],
+        "evolutionNames": [["Alolan Sandshrew", "Alolan Sandslash"]],
+        "pokedex": {
+            "id": 27,
+            "entry": "Life on mountains covered with deep snow has granted this Pokémon a body of ice that’s as hard as steel."
+        },
+        "etymology": "sand and shrew"
+    },
+    "Alolan Sandslash": {
+        "id": 28,
+        "name": "Alolan Sandslash",
+        "forms": ["Sandslash"],
+        "types": ["Ice", "Steel"],
+        "species": "Mouse Pokémon",
+        "height": "3'11\"",
+        "weight": "121.3 lbs",
+        "abilities": ["Snow Cloak"],
+        "hiddenAbilities": ["Slush Rush"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 120
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 25
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 65
+            }
+        ],
+        "evolutionNames": [["Alolan Sandshrew", "Alolan Sandslash"]],
+        "pokedex": {
+            "id": 28,
+            "entry": "It uses large, hooked claws to cut a path through deep snow as it runs. On snowy mountains, this Sandslash is faster than any other Pokémon."
+        },
+        "etymology": "sand and slash"
+    },
+    "Alolan Vulpix": {
+        "id": 37,
+        "name": "Alolan Vulpix",
+        "forms": ["Vulpix"],
+        "types": ["Ice"],
+        "species": "Fox Pokémon",
+        "height": "2'00\"",
+        "weight": "21.8 lbs",
+        "abilities": ["Snow Cloak"],
+        "hiddenAbilities": ["Snow Warning"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 38
+            },
+            {
+                "name": "Atk",
+                "value": 41
+            },
+            {
+                "name": "Def",
+                "value": 40
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 65
+            }
+        ],
+        "evolutionNames": [["Alolan Vulpix", "Alolan Ninetales"]],
+        "pokedex": {
+            "id": 37,
+            "entry": "After long years in the ever-snowcapped mountains of Alola, this Vulpix has gained power over ice."
+        },
+        "etymology": "vulpine and six"
+    },
+    "Alolan Ninetales": {
+        "id": 38,
+        "name": "Alolan Ninetales",
+        "forms": ["Ninetales"],
+        "types": ["Ice", "Fairy"],
+        "species": "Fox Pokémon",
+        "height": "3'07\"",
+        "weight": "43.9 lbs",
+        "abilities": ["Snow Cloak"],
+        "hiddenAbilities": ["Snow Warning"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 73
+            },
+            {
+                "name": "Atk",
+                "value": 67
+            },
+            {
+                "name": "Def",
+                "value": 75
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 81
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 109
+            }
+        ],
+        "evolutionNames": [["Alolan Vulpix", "Alolan Ninetales"]],
+        "pokedex": {
+            "id": 38,
+            "entry": "A deity resides in the snowy mountains where this Pokémon lives. In ancient times, it was worshiped as that deity’s incarnation."
+        },
+        "etymology": "nine and tales"
+    },
+    "Alolan Diglett": {
+        "id": 50,
+        "name": "Alolan Diglett",
+        "forms": ["Diglett"],
+        "types": ["Ground", "Steel"],
+        "species": "Mole Pokémon",
+        "height": "0'08\"",
+        "weight": "2.2 lbs",
+        "abilities": ["Sand Veil", "Tangling Hair"],
+        "hiddenAbilities": ["Sand Force"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 10
+            },
+            {
+                "name": "Atk",
+                "value": 55
+            },
+            {
+                "name": "Def",
+                "value": 30
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 35
+            },
+            {
+                "name": "Sp. Def",
+                "value": 45
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Alolan Diglett", "Alolan Dugtrio"]],
+        "pokedex": {
+            "id": 50,
+            "entry": "The metal-rich geology of this Pokémon’s habitat caused it to develop steel whiskers on its head."
+        },
+        "etymology": "dig and suffix lett"
+    },
+    "Alolan Dugtrio": {
+        "id": 51,
+        "name": "Alolan Dugtrio",
+        "forms": ["Dugtrio"],
+        "types": ["Ground", "Steel"],
+        "species": "Mole Pokémon",
+        "height": "2'04\"",
+        "weight": "146.8 lbs",
+        "abilities": ["Sand Veil", "Tangling Hair"],
+        "hiddenAbilities": ["Sand Force"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 35
+            },
+            {
+                "name": "Atk",
+                "value": 100
+            },
+            {
+                "name": "Def",
+                "value": 60
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 110
+            }
+        ],
+        "evolutionNames": [["Alolan Diglett", "Alolan Dugtrio"]],
+        "pokedex": {
+            "id": 51,
+            "entry": "Their beautiful, metallic whiskers create a sort of protective helmet on their heads, and they also function as highly precise sensors."
+        },
+        "etymology": "dug and trio"
+    },
+    "Alolan Meowth": {
+        "id": 52,
+        "name": "Alolan Meowth",
+        "forms": ["Meowth", "Galarian Meowth", "Gigantamax Meowth"],
+        "types": ["Dark"],
+        "species": "Scratch Cat Pokémon",
+        "height": "1'04\"",
+        "weight": "9.3 lbs",
+        "abilities": ["Pickup", "Technician"],
+        "hiddenAbilities": ["Rattled"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 40
+            },
+            {
+                "name": "Atk",
+                "value": 35
+            },
+            {
+                "name": "Def",
+                "value": 35
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 40
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Alolan Meowth", "Alolan Persian"]],
+        "pokedex": {
+            "id": 52,
+            "entry": "It’s accustomed to luxury because it used to live with Alolan royalty. As a result, it’s very picky about food."
+        },
+        "etymology": "meow and wealth"
+    },
+    "Alolan Persian": {
+        "id": 53,
+        "name": "Alolan Persian",
+        "forms": ["Persian"],
+        "types": ["Dark"],
+        "species": "Classy Cat Pokémon",
+        "height": "3'07\"",
+        "weight": "72.8 lbs",
+        "abilities": ["Fur Coat", "Technician"],
+        "hiddenAbilities": ["Rattled"],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 65
+            },
+            {
+                "name": "Atk",
+                "value": 60
+            },
+            {
+                "name": "Def",
+                "value": 60
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 75
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 115
+            }
+        ],
+        "evolutionNames": [["Alolan Meowth", "Alolan Persian"]],
+        "pokedex": {
+            "id": 53,
+            "entry": "The round face of Alolan Persian is considered to be a symbol of prosperity in the Alola region, so these Pokémon are very well cared for."
+        },
+        "etymology": "persian"
+    },
+    "Alolan Geodude": {
+        "id": 74,
+        "name": "Alolan Geodude",
+        "forms": ["Geodude"],
+        "types": ["Rock", "Electric"],
+        "species": "Rock Pokémon",
+        "height": "1'04\"",
+        "weight": "44.8 lbs",
+        "abilities": ["Magnet Pull", "Sturdy"],
+        "hiddenAbilities": ["Galvanize"],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 40
+            },
+            {
+                "name": "Atk",
+                "value": 80
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 30
+            },
+            {
+                "name": "Sp. Def",
+                "value": 30
+            },
+            {
+                "name": "Spd",
+                "value": 20
+            }
+        ],
+        "evolutionNames": [["Alolan Geodude", "Alolan Graveler", "Alolan Golem"]],
+        "pokedex": {
+            "id": 74,
+            "entry": "Geodude compete against each other with headbutts. The iron sand on their heads will stick to whichever one has stronger magnetism."
+        },
+        "etymology": "prefix geo and dude"
+    },
+    "Alolan Graveler": {
+        "id": 75,
+        "name": "Alolan Graveler",
+        "forms": ["Graveler"],
+        "types": ["Rock", "Electric"],
+        "species": "Rock Pokémon",
+        "height": "3'03\"",
+        "weight": "242.5 lbs",
+        "abilities": ["Magnet Pull", "Sturdy"],
+        "hiddenAbilities": ["Galvanize"],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 55
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 115
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 45
+            },
+            {
+                "name": "Sp. Def",
+                "value": 45
+            },
+            {
+                "name": "Spd",
+                "value": 35
+            }
+        ],
+        "evolutionNames": [["Alolan Geodude", "Alolan Graveler", "Alolan Golem"]],
+        "pokedex": {
+            "id": 75,
+            "entry": "Graveler’s entire body is tinged with electricity due to the stones it likes to eat. It’s very quick-tempered."
+        },
+        "etymology": "gravel"
+    },
+    "Alolan Golem": {
+        "id": 76,
+        "name": "Alolan Golem",
+        "forms": ["Golem"],
+        "types": ["Rock", "Electric"],
+        "species": "Megaton Pokémon",
+        "height": "5'07\"",
+        "weight": "696.7 lbs",
+        "abilities": ["Magnet Pull", "Sturdy"],
+        "hiddenAbilities": ["Galvanize"],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 120
+            },
+            {
+                "name": "Def",
+                "value": 130
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 55
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 45
+            }
+        ],
+        "evolutionNames": [["Alolan Geodude", "Alolan Graveler", "Alolan Golem"]],
+        "pokedex": {
+            "id": 76,
+            "entry": "It shoots large rocks that are charged with electricity. Tremendous electric shocks are flung out across the whole area of impact."
+        },
+        "etymology": "golem"
+    },
+    "Alolan Grimer": {
+        "id": 88,
+        "name": "Alolan Grimer",
+        "forms": ["Grimer"],
+        "types": ["Poison", "Dark"],
+        "species": "Sludge Pokémon",
+        "height": "2'04\"",
+        "weight": "92.6 lbs",
+        "abilities": ["Poison Touch", "Gluttony"],
+        "hiddenAbilities": ["Power of Alchemy"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 80
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 40
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 25
+            }
+        ],
+        "evolutionNames": [["Alolan Grimer", "Alolan Muk"]],
+        "pokedex": {
+            "id": 88,
+            "entry": "Brought to Alola to solve the garbage problem, Grimer seems to relish any and all kinds of trash."
+        },
+        "etymology": "grime"
+    },
+    "Alolan Muk": {
+        "id": 89,
+        "name": "Alolan Muk",
+        "forms": ["Muk"],
+        "types": ["Poison", "Dark"],
+        "species": "Sludge Pokémon",
+        "height": "3'03\"",
+        "weight": "114.6 lbs",
+        "abilities": ["Poison Touch", "Gluttony"],
+        "hiddenAbilities": ["Power of Alchemy"],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 105
+            },
+            {
+                "name": "Atk",
+                "value": 105
+            },
+            {
+                "name": "Def",
+                "value": 75
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 50
+            }
+        ],
+        "evolutionNames": [["Alolan Grimer", "Alolan Muk"]],
+        "pokedex": {
+            "id": 89,
+            "entry": "What look like fangs and claws are actually crystallized poison that will afflict you at a mere touch, so don’t get too close."
+        },
+        "etymology": "muck"
+    },
+    "Alolan Exeggutor": {
+        "id": 103,
+        "name": "Alolan Exeggutor",
+        "forms": ["Exeggutor"],
+        "types": ["Grass", "Dragon"],
+        "species": "Coconut Pokémon",
+        "height": "35'09\"",
+        "weight": "916.2 lbs",
+        "abilities": ["Frisk"],
+        "hiddenAbilities": ["Harvest"],
+        "eggGroup": "Grass",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 95
+            },
+            {
+                "name": "Atk",
+                "value": 105
+            },
+            {
+                "name": "Def",
+                "value": 85
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 125
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 45
+            }
+        ],
+        "evolutionNames": [["Exeggcute", "Alolan Exeggutor"]],
+        "pokedex": {
+            "id": 103,
+            "entry": "Blazing sunlight has brought out the true form and powers of this Pokémon."
+        },
+        "etymology": "egg and executor"
+    },
+    "Alolan Marowak": {
+        "id": 105,
+        "name": "Alolan Marowak",
+        "forms": ["Marowak"],
+        "types": ["Fire", "Ghost"],
+        "species": "Bone Keeper Pokémon",
+        "height": "3'03\"",
+        "weight": "75.0 lbs",
+        "abilities": ["Cursed Body", "Lightning Rod"],
+        "hiddenAbilities": ["Rock Head"],
+        "eggGroup": "Monster",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 80
+            },
+            {
+                "name": "Def",
+                "value": 110
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 45
+            }
+        ],
+        "evolutionNames": [["Cubone", "Alolan Marowak"]],
+        "pokedex": {
+            "id": 105,
+            "entry": "This Pokémon sets the bone it holds on fire and dances through the night as a way to mourn its fallen allies."
+        },
+        "etymology": "marrow and whack"
+    }
+}

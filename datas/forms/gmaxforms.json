@@ -1,0 +1,1454 @@
+{
+    "Gigantamax Venusaur": {
+        "id": 3,
+        "name": "Gigantamax Venusaur",
+        "forms": ["Venusaur", "Mega Venusaur"],
+        "types": ["Grass", "Poison"],
+        "species": "Seed Pokémon",
+        "height": "78'09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Vine Lash"],
+        "hiddenAbilities": [],
+        "eggGroup": "Grass and Monster",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 82
+            },
+            {
+                "name": "Def",
+                "value": 83
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 100
+            },
+            {
+                "name": "Sp. Def",
+                "value": 100
+            },
+            {
+                "name": "Spd",
+                "value": 80
+            }
+        ],
+        "evolutionNames": [["Venusaur", "Gigantamax Venusaur"]],
+        "pokedex": {
+            "id": 3,
+            "entry": "In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it."
+        },
+        "etymology": "venus flytrap and dinosaur"
+    },
+    "Gigantamax Charizard": {
+        "id": 6,
+        "name": "Gigantamax Charizard",
+        "forms": ["Charizard", "Mega Charizard X", "Mega Charizard Y"],
+        "types": ["Fire", "Flying"],
+        "species": "Flame Pokémon",
+        "height": "91'10\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Wildfire"],
+        "hiddenAbilities": [],
+        "eggGroup": "Dragon and Monster",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 78
+            },
+            {
+                "name": "Atk",
+                "value": 84
+            },
+            {
+                "name": "Def",
+                "value": 78
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 109
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 100
+            }
+        ],
+        "evolutionNames": [["Charizard", "Gigantamax Charizard"]],
+        "pokedex": {
+            "id": 6,
+            "entry": "This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy."
+        },
+        "etymology": "char and lizard"
+    },
+    "Gigantamax Blastoise": {
+        "id": 9,
+        "name": "Gigantamax Blastoise",
+        "forms": ["Blastoise", "Mega Blastoise"],
+        "types": ["Water"],
+        "species": "Shellfish Pokémon",
+        "height": "82'00\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Cannonade"],
+        "hiddenAbilities": [],
+        "eggGroup": "Monster and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 79
+            },
+            {
+                "name": "Atk",
+                "value": 83
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 85
+            },
+            {
+                "name": "Sp. Def",
+                "value": 105
+            },
+            {
+                "name": "Spd",
+                "value": 78
+            }
+        ],
+        "evolutionNames": [["Blastoise", "Gigantamax Blastoise"]],
+        "pokedex": {
+            "id": 9,
+            "entry": "It's not very good at precision shooting. When attacking, it just fires its 31 cannons over and over and over."
+        },
+        "etymology": "blast and tortoise"
+    },
+    "Gigantamax Butterfree": {
+        "id": 12,
+        "name": "Gigantamax Butterfree",
+        "forms": ["Butterfree"],
+        "types": ["Bug", "Flying"],
+        "species": "Butterfly Pokémon",
+        "height": "55'09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Befuddle"],
+        "hiddenAbilities": [],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 45
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 90
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 70
+            }
+        ],
+        "evolutionNames": [["Butterfree", "Gigantamax Butterfree"]],
+        "pokedex": {
+            "id": 12,
+            "entry": "Crystallized Gigantamax energy makes up this Pokémon’s blindingly bright and highly toxic scales."
+        },
+        "etymology": "butterfly and free"
+    },
+    "Gigantamax Pikachu": {
+        "id": 25,
+        "name": "Gigantamax Pikachu",
+        "forms": ["Pikachu"],
+        "types": ["Electric"],
+        "species": "Mouse Pokémon",
+        "height": "68'11\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Volt Crash"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy and Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 35
+            },
+            {
+                "name": "Atk",
+                "value": 55
+            },
+            {
+                "name": "Def",
+                "value": 40
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Pikachu", "Gigantamax Pikachu"]],
+        "pokedex": {
+            "id": 25,
+            "entry": "When Pikachu meet, they’ll touch their tails together and exchange electricity through them as a form of greeting."
+        },
+        "etymology": "pikapika and chu"
+    },
+    "Gigantamax Meowth": {
+        "id": 52,
+        "name": "Gigantamax Meowth",
+        "forms": ["Meowth", "Alolan Meowth", "Galarian Meowth"],
+        "types": ["Normal"],
+        "species": "Scratch Cat Pokémon",
+        "height": "108'03\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Gold Rush"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 40
+            },
+            {
+                "name": "Atk",
+                "value": 45
+            },
+            {
+                "name": "Def",
+                "value": 35
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 40
+            },
+            {
+                "name": "Sp. Def",
+                "value": 40
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Meowth", "Gigantamax Meowth"]],
+        "pokedex": {
+            "id": 52,
+            "entry": "The pattern that has appeared on its giant coin is thought to be the key to unlocking the secrets of the Dynamax phenomenon."
+        },
+        "etymology": "meow and wealth"
+    },
+    "Gigantamax Machamp": {
+        "id": 68,
+        "name": "Gigantamax Machamp",
+        "forms": ["Machamp"],
+        "types": ["Fighting"],
+        "species": "Superpower Pokémon",
+        "height": "82'00\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Chi Strike"],
+        "hiddenAbilities": [],
+        "eggGroup": "Human-Like",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 90
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 55
+            }
+        ],
+        "evolutionNames": [["Machamp", "Gigantamax Machamp"]],
+        "pokedex": {
+            "id": 68,
+            "entry": "The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts."
+        },
+        "etymology": "macho and champ"
+    },
+    "Gigantamax Gengar": {
+        "id": 94,
+        "name": "Gigantamax Gengar",
+        "forms": ["Gengar", "Mega Gengar"],
+        "types": ["Ghost", "Poison"],
+        "species": "Shadow Pokémon",
+        "height": "65'07\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Terror"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 65
+            },
+            {
+                "name": "Def",
+                "value": 60
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 130
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 110
+            }
+        ],
+        "evolutionNames": [["Gengar", "Gigantamax Gengar"]],
+        "pokedex": {
+            "id": 94,
+            "entry": "Rumor has it that its gigantic mouth leads not into its body, filled with cursed energy, but instead directly to the afterlife."
+        },
+        "etymology": "doppelgänger"
+    },
+    "Gigantamax Kingler": {
+        "id": 99,
+        "name": "Gigantamax Kingler",
+        "forms": ["Kingler"],
+        "types": ["Water"],
+        "species": "Pincer Pokémon",
+        "height": "62'04\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Foam Burst"],
+        "hiddenAbilities": [],
+        "eggGroup": "Water 3",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 55
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 115
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 50
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 75
+            }
+        ],
+        "evolutionNames": [["Kingler", "Gigantamax Kingler"]],
+        "pokedex": {
+            "id": 99,
+            "entry": "The flow of Gigantamax energy has spurred this Pokémon’s left pincer to grow to an enormous size. That claw can pulverize anything."
+        },
+        "etymology": "king and fiddler"
+    },
+    "Gigantamax Lapras": {
+        "id": 131,
+        "name": "Gigantamax Lapras",
+        "forms": ["Lapras"],
+        "types": ["Water", "Ice"],
+        "species": "Transport Pokémon",
+        "height": "78'09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Resonance"],
+        "hiddenAbilities": [],
+        "eggGroup": "Water 1 and Monster",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 130
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 85
+            },
+            {
+                "name": "Sp. Def",
+                "value": 95
+            },
+            {
+                "name": "Spd",
+                "value": 60
+            }
+        ],
+        "evolutionNames": [["Lapras", "Gigantamax Lapras"]],
+        "pokedex": {
+            "id": 131,
+            "entry": "Over 5,000 people can ride on its shell at once. And it’s a very comfortable ride, without the slightest shaking or swaying."
+        },
+        "etymology": "Loch Ness"
+    },
+    "Gigantamax Eevee": {
+        "id": 133,
+        "name": "Gigantamax Eevee",
+        "forms": ["Eevee"],
+        "types": ["Normal"],
+        "species": "Evolution Pokémon",
+        "height": "59'01\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Cuddle"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 55
+            },
+            {
+                "name": "Atk",
+                "value": 55
+            },
+            {
+                "name": "Def",
+                "value": 50
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 45
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 55
+            }
+        ],
+        "evolutionNames": [["Eevee", "Gigantamax Eevee"]],
+        "pokedex": {
+            "id": 133,
+            "entry": "Gigantamax energy upped the fluffiness of the fur around Eevee’s neck. The fur will envelop a foe, capturing its body and captivating its mind."
+        },
+        "etymology": "E-V abbreviation for evolution"
+    },
+    "Gigantamax Snorlax": {
+        "id": 143,
+        "name": "Gigantamax Snorlax",
+        "forms": ["Snorlax"],
+        "types": ["Normal"],
+        "species": "Sleeping Pokémon",
+        "height": "114'10\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Replenish"],
+        "hiddenAbilities": [],
+        "eggGroup": "Monster",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 160
+            },
+            {
+                "name": "Atk",
+                "value": 110
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 110
+            },
+            {
+                "name": "Spd",
+                "value": 30
+            }
+        ],
+        "evolutionNames": [["Snorlax", "Gigantamax Snorlax"]],
+        "pokedex": {
+            "id": 143,
+            "entry": "Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size."
+        },
+        "etymology": "snore and lax"
+    },
+    "Gigantamax Garbodor": {
+        "id": 569,
+        "name": "Gigantamax Garbodor",
+        "forms": ["Garbodor"],
+        "types": ["Poison"],
+        "species": "Trash Heap Pokémon",
+        "height": "68′11\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Malodor"],
+        "hiddenAbilities": [],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 82
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 60
+            },
+            {
+                "name": "Sp. Def",
+                "value": 82
+            },
+            {
+                "name": "Spd",
+                "value": 75
+            }
+        ],
+        "evolutionNames": [["Garbodor", "Gigantamax Garbodor"]],
+        "pokedex": {
+            "id": 569,
+            "entry": "Due to Gigantamax energy, this Pokémon’s toxic gas has become much thicker, congealing into masses shaped like discarded toys."
+        },
+        "etymology": "garbage and odor"
+    },
+    "Gigantamax Melmetal": {
+        "id": 809,
+        "name": "Gigantamax Melmetal",
+        "forms": ["Melmetal"],
+        "types": ["Steel"],
+        "species": "Hex Nut Pokémon",
+        "height": "82′00\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Meltdown"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 135
+            },
+            {
+                "name": "Atk",
+                "value": 143
+            },
+            {
+                "name": "Def",
+                "value": 143
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 34
+            }
+        ],
+        "evolutionNames": [["Melmetal", "Gigantamax Melmetal"]],
+        "pokedex": {
+            "id": 809,
+            "entry": "In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy."
+        },
+        "etymology": "melt and metal"
+    },
+    "Gigantamax Rillaboom": {
+        "id": 812,
+        "name": "Gigantamax Rillaboom",
+        "forms": ["Rillaboom"],
+        "types": ["Grass"],
+        "species": "Drummer Pokémon",
+        "height": "91′10\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Drum Solo"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field and Grass",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 125
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 60
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 85
+            }
+        ],
+        "evolutionNames": [["Rillaboom", "Gigantamax Rillaboom"]],
+        "pokedex": {
+            "id": 812,
+            "entry": "Gigantamax energy has caused Rillaboom’s stump to grow into a drum set that resembles a forest."
+        },
+        "etymology": "gorilla and boom"
+    },
+    "Gigantamax Cinderace": {
+        "id": 815,
+        "name": "Gigantamax Cinderace",
+        "forms": ["Cinderace"],
+        "types": ["Fire"],
+        "species": "Striker Pokémon",
+        "height": "88′07\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Fireball"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field and Human-Like",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 80
+            },
+            {
+                "name": "Atk",
+                "value": 116
+            },
+            {
+                "name": "Def",
+                "value": 75
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 119
+            }
+        ],
+        "evolutionNames": [["Cinderace", "Gigantamax Cinderace"]],
+        "pokedex": {
+            "id": 815,
+            "entry": "Infused with Cinderace’s fighting spirit, the gigantic Pyro Ball never misses its targets and completely roasts opponents."
+        },
+        "etymology": "cinder and ace"
+    },
+    "Gigantamax Inteleon": {
+        "id": 818,
+        "name": "Gigantamax Inteleon",
+        "forms": ["Inteleon"],
+        "types": ["Water"],
+        "species": "Secret Agent Pokémon",
+        "height": "131′03\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Hydrosnipe"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 125
+            },
+            {
+                "name": "Sp. Def",
+                "value": 65
+            },
+            {
+                "name": "Spd",
+                "value": 120
+            }
+        ],
+        "evolutionNames": [["Inteleon", "Gigantamax Inteleon"]],
+        "pokedex": {
+            "id": 818,
+            "entry": "Gigantamax Inteleon’s Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature."
+        },
+        "etymology": "intelligence and chameleon"
+    },
+    "Gigantamax Corviknight": {
+        "id": 823,
+        "name": "Gigantamax Corviknight",
+        "forms": ["Corviknight"],
+        "types": ["Flying", "Steel"],
+        "species": "Raven Pokémon",
+        "height": "45′11\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Wind Rage"],
+        "hiddenAbilities": [],
+        "eggGroup": "Flying",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 98
+            },
+            {
+                "name": "Atk",
+                "value": 87
+            },
+            {
+                "name": "Def",
+                "value": 105
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 53
+            },
+            {
+                "name": "Sp. Def",
+                "value": 85
+            },
+            {
+                "name": "Spd",
+                "value": 67
+            }
+        ],
+        "evolutionNames": [["Corviknight", "Gigantamax Corviknight"]],
+        "pokedex": {
+            "id": 823,
+            "entry": "Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away."
+        },
+        "etymology": "corvine and knight"
+    },
+    "Gigantamax Orbeetle": {
+        "id": 826,
+        "name": "Gigantamax Orbeetle",
+        "forms": ["Orbeetle"],
+        "types": ["Bug", "Psychic"],
+        "species": "Seven Spot Pokémon",
+        "height": "45′11\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Gravitas"],
+        "hiddenAbilities": [],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 60
+            },
+            {
+                "name": "Atk",
+                "value": 45
+            },
+            {
+                "name": "Def",
+                "value": 110
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 120
+            },
+            {
+                "name": "Spd",
+                "value": 90
+            }
+        ],
+        "evolutionNames": [["Orbeetle", "Gigantamax Orbeetle"]],
+        "pokedex": {
+            "id": 826,
+            "entry": "Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon’s intellect and psychic abilities are overpowering."
+        },
+        "etymology": "orb and beetle"
+    },
+    "Gigantamax Drednaw": {
+        "id": 834,
+        "name": "Gigantamax Drednaw",
+        "forms": ["Drednaw"],
+        "types": ["Water", "Rock"],
+        "species": "Bite Pokémon",
+        "height": "78′09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Stonesurge"],
+        "hiddenAbilities": [],
+        "eggGroup": "Monster and Water 1",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 90
+            },
+            {
+                "name": "Atk",
+                "value": 115
+            },
+            {
+                "name": "Def",
+                "value": 90
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 48
+            },
+            {
+                "name": "Sp. Def",
+                "value": 68
+            },
+            {
+                "name": "Spd",
+                "value": 74
+            }
+        ],
+        "evolutionNames": [["Drednaw", "Gigantamax Drednaw"]],
+        "pokedex": {
+            "id": 834,
+            "entry": "It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws."
+        },
+        "etymology": "dreadnought and gnaw"
+    },
+    "Gigantamax Coalossal": {
+        "id": 839,
+        "name": "Gigantamax Coalossal",
+        "forms": ["Coalossal"],
+        "types": ["Rock", "Fire"],
+        "species": "Coal Pokémon",
+        "height": "137′10\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Volcalith"],
+        "hiddenAbilities": [],
+        "eggGroup": "Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 110
+            },
+            {
+                "name": "Atk",
+                "value": 80
+            },
+            {
+                "name": "Def",
+                "value": 120
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 30
+            }
+        ],
+        "evolutionNames": [["Coalossal", "Gigantamax Coalossal"]],
+        "pokedex": {
+            "id": 839,
+            "entry": "Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon’s flame burns hotter than 3,600 degrees Fahrenheit."
+        },
+        "etymology": "coal and colossal"
+    },
+    "Gigantamax Flapple": {
+        "id": 841,
+        "name": "Gigantamax Flapple",
+        "forms": ["Flapple"],
+        "types": ["Grass", "Dragon"],
+        "species": "Apple Wing Pokémon",
+        "height": "78′09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Tartness"],
+        "hiddenAbilities": [],
+        "eggGroup": "Dragon and Grass",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 110
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 95
+            },
+            {
+                "name": "Sp. Def",
+                "value": 60
+            },
+            {
+                "name": "Spd",
+                "value": 70
+            }
+        ],
+        "evolutionNames": [["Flapple", "Gigantamax Flapple"]],
+        "pokedex": {
+            "id": 841,
+            "entry": "Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple."
+        },
+        "etymology": "flap and apple"
+    },
+    "Gigantamax Appletun": {
+        "id": 842,
+        "name": "Gigantamax Appletun",
+        "forms": ["Appletun"],
+        "types": ["Grass", "Dragon"],
+        "species": "Apple Nectar Pokémon",
+        "height": "78′09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Sweetness"],
+        "hiddenAbilities": [],
+        "eggGroup": "Dragon and Grass",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 110
+            },
+            {
+                "name": "Atk",
+                "value": 85
+            },
+            {
+                "name": "Def",
+                "value": 80
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 100
+            },
+            {
+                "name": "Sp. Def",
+                "value": 80
+            },
+            {
+                "name": "Spd",
+                "value": 30
+            }
+        ],
+        "evolutionNames": [["Appletun", "Gigantamax Appletun"]],
+        "pokedex": {
+            "id": 842,
+            "entry": "It blasts its opponents with massive amounts of sweet, sticky nectar, drowning them under the deluge."
+        },
+        "etymology": "apple and tun"
+    },
+    "Gigantamax Sandaconda": {
+        "id": 844,
+        "name": "Gigantamax Sandaconda",
+        "forms": ["Sandaconda"],
+        "types": ["Ground"],
+        "species": "Sand Snake Pokémon",
+        "height": "72′02\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Sandblast"],
+        "hiddenAbilities": [],
+        "eggGroup": "Dragon and Field",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 72
+            },
+            {
+                "name": "Atk",
+                "value": 107
+            },
+            {
+                "name": "Def",
+                "value": 125
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 65
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 71
+            }
+        ],
+        "evolutionNames": [["Sandaconda", "Gigantamax Sandaconda"]],
+        "pokedex": {
+            "id": 844,
+            "entry": "Its sand pouch has grown to tremendous proportions. More than 1,000,000 tons of sand now swirl around its body."
+        },
+        "etymology": "sand and anaconda"
+    },
+    "Gigantamax Toxtricity": {
+        "id": 849,
+        "name": "Gigantamax Toxtricity",
+        "forms": ["Toxtricity (Low Key)", "Toxtricity (Amped)"],
+        "types": ["Electric", "Poison"],
+        "species": "Punk Pokémon",
+        "height": "78′09\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Stun Shock"],
+        "hiddenAbilities": [],
+        "eggGroup": "Human-Like",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 75
+            },
+            {
+                "name": "Atk",
+                "value": 98
+            },
+            {
+                "name": "Def",
+                "value": 70
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 114
+            },
+            {
+                "name": "Sp. Def",
+                "value": 70
+            },
+            {
+                "name": "Spd",
+                "value": 75
+            }
+        ],
+        "evolutionNames": [["Toxtricity (Low Key)", "Gigantamax Toxtricity"], ["Toxtricity (Amped)", "Gigantamax Toxtricity"]],
+        "pokedex": {
+            "id": 849,
+            "entry": "Its excessive electric energy is its weapon. This Pokémon can build up more electricity than any thundercloud."
+        },
+        "etymology": "toxic and electricity"
+    },
+    "Gigantamax Centiskorch": {
+        "id": 851,
+        "name": "Gigantamax Centiskorch",
+        "forms": ["Centiskorch"],
+        "types": ["Fire", "Bug"],
+        "species": "Radiator Pokémon",
+        "height": "246′01\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Centiferno"],
+        "hiddenAbilities": [],
+        "eggGroup": "Bug",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 115
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 90
+            },
+            {
+                "name": "Sp. Def",
+                "value": 90
+            },
+            {
+                "name": "Spd",
+                "value": 65
+            }
+        ],
+        "evolutionNames": [["Centiskorch", "Gigantamax Centiskorch"]],
+        "pokedex": {
+            "id": 851,
+            "entry": "Gigantamax energy has evoked a rise in its body temperature, now reaching over 1,800 degrees Fahrenheit. Its heat waves incinerate its enemies."
+        },
+        "etymology": "centipede and scorch"
+    },
+    "Gigantamax Hatterene": {
+        "id": 858,
+        "name": "Gigantamax Hatterene",
+        "forms": ["Hatterene"],
+        "types": ["Psychic", "Fairy"],
+        "species": "Silent Pokémon",
+        "height": "85′04\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Smite"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 57
+            },
+            {
+                "name": "Atk",
+                "value": 90
+            },
+            {
+                "name": "Def",
+                "value": 95
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 136
+            },
+            {
+                "name": "Sp. Def",
+                "value": 103
+            },
+            {
+                "name": "Spd",
+                "value": 29
+            }
+        ],
+        "evolutionNames": [["Hatterene", "Gigantamax Hatterene"]],
+        "pokedex": {
+            "id": 858,
+            "entry": "This Pokémon can read the emotions of creatures over 30 miles away. The minute it senses hostility, it goes on the attack."
+        },
+        "etymology": "hat and serene"
+    },
+    "Gigantamax Grimmsnarl": {
+        "id": 861,
+        "name": "Gigantamax Grimmsnarl",
+        "forms": ["Grimmsnarl"],
+        "types": ["Dark", "Fairy"],
+        "species": "Bulk Up Pokémon",
+        "height": "105′00\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Snooze"],
+        "hiddenAbilities": [],
+        "eggGroup": "Fairy and Human-Like",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 95
+            },
+            {
+                "name": "Atk",
+                "value": 120
+            },
+            {
+                "name": "Def",
+                "value": 65
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 95
+            },
+            {
+                "name": "Sp. Def",
+                "value": 75
+            },
+            {
+                "name": "Spd",
+                "value": 60
+            }
+        ],
+        "evolutionNames": [["Grimmsnarl", "Gigantamax Grimmsnarl"]],
+        "pokedex": {
+            "id": 861,
+            "entry": "By transforming its leg hair, this Pokémon delivers power-packed drill kicks that can bore huge holes in Galar’s terrain."
+        },
+        "etymology": "grim and snarl"
+    },
+    "Gigantamax Alcremie": {
+        "id": 869,
+        "name": "Gigantamax Alcremie",
+        "forms": ["Alcremie"],
+        "types": ["Fairy"],
+        "species": "Cream Pokémon",
+        "height": "98′05\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Finale"],
+        "hiddenAbilities": [],
+        "eggGroup": "Amorphous and Fairy",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 65
+            },
+            {
+                "name": "Atk",
+                "value": 60
+            },
+            {
+                "name": "Def",
+                "value": 75
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 110
+            },
+            {
+                "name": "Sp. Def",
+                "value": 121
+            },
+            {
+                "name": "Spd",
+                "value": 64
+            }
+        ],
+        "evolutionNames": [["Alcremie", "Gigantamax Alcremie"]],
+        "pokedex": {
+            "id": 869,
+            "entry": "Cream pours endlessly from this Pokémon’s body. The cream stiffens when compressed by an impact. A harder impact results in harder cream."
+        },
+        "etymology": "alchemy and creamy"
+    },
+    "Gigantamax Copperajah": {
+        "id": 879,
+        "name": "Gigantamax Copperajah",
+        "forms": ["Copperajah"],
+        "types": ["Steel"],
+        "species": "Copperderm Pokémon",
+        "height": "75′06\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Steelsurge"],
+        "hiddenAbilities": [],
+        "eggGroup": "Field and Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 122
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 69
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 80
+            },
+            {
+                "name": "Sp. Def",
+                "value": 69
+            },
+            {
+                "name": "Spd",
+                "value": 30
+            }
+        ],
+        "evolutionNames": [["Copperajah", "Gigantamax Copperajah"]],
+        "pokedex": {
+            "id": 879,
+            "entry": "So much power is packed within its trunk that if it were to unleash that power, the resulting blast could level mountains and change the landscape."
+        },
+        "etymology": "copper and rajah"
+    },
+    "Gigantamax Duraludon": {
+        "id": 884,
+        "name": "Gigantamax Duraludon",
+        "forms": ["Duraludon"],
+        "types": ["Steel", "Dragon"],
+        "species": "Alloy Pokémon",
+        "height": "141′01\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Depletion"],
+        "hiddenAbilities": [],
+        "eggGroup": "Dragon and Mineral",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 70
+            },
+            {
+                "name": "Atk",
+                "value": 95
+            },
+            {
+                "name": "Def",
+                "value": 115
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 120
+            },
+            {
+                "name": "Sp. Def",
+                "value": 50
+            },
+            {
+                "name": "Spd",
+                "value": 85
+            }
+        ],
+        "evolutionNames": [["Duraludon", "Gigantamax Duraludon"]],
+        "pokedex": {
+            "id": 884,
+            "entry": "It’s grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy."
+        },
+        "etymology": "duralumin and -don"
+    },
+    "Gigantamax Urshifu (Single)": {
+        "id": 892,
+        "name": "Gigantamax Urshifu (Single)",
+        "forms": ["Urshifu (Single)"],
+        "types": ["Fighting", "Dark"],
+        "species": "Wushu Pokémon",
+        "height": "95′02\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max One Blow"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 63
+            },
+            {
+                "name": "Sp. Def",
+                "value": 60
+            },
+            {
+                "name": "Spd",
+                "value": 97
+            }
+        ],
+        "evolutionNames": [["Urshifu (Single)", "Gigantamax Urshifu (Single)"]],
+        "pokedex": {
+            "id": 892,
+            "entry": "People call it the embodiment of rage. It’s said that this Pokémon’s terrifying expression and shout will rid the world of malevolence."
+        },
+        "etymology": "ursa and wushu"
+    },
+    "Gigantamax Urshifu (Rapid)": {
+        "id": 892,
+        "name": "Gigantamax Urshifu (Rapid)",
+        "forms": ["Urshifu (Rapid)"],
+        "types": ["Fighting", "Water"],
+        "species": "Wushu Pokémon",
+        "height": "95′02\"",
+        "weight": "??? lbs",
+        "abilities": ["G-Max Rapid Flow"],
+        "hiddenAbilities": [],
+        "eggGroup": "Undiscovered",
+        "stats": [
+            {
+                "name": "HP",
+                "value": 100
+            },
+            {
+                "name": "Atk",
+                "value": 130
+            },
+            {
+                "name": "Def",
+                "value": 100
+            },
+            {
+                "name": "Sp. Atk",
+                "value": 63
+            },
+            {
+                "name": "Sp. Def",
+                "value": 60
+            },
+            {
+                "name": "Spd",
+                "value": 97
+            }
+        ],
+        "evolutionNames": [["Urshifu (Rapid)", "Gigantamax Urshifu (Rapid)"]],
+        "pokedex": {
+            "id": 892,
+            "entry": "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won’t even twitch."
+        },
+        "etymology": "ursa and wushu"
+    }
+}
