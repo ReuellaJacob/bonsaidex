@@ -1,16 +1,133 @@
+
+/*** table of contents ***/
+/** 1. global
+ *  2. pokedex grid view
+ *  3. info view
+ *  4. sub info view
+ *  5. data view
+ *  6. stats view
+ *  7. type view
+ *  8. type color index
+ */
+
+/*** 1. global ***/
+* {
+    font-family: 'Arial', serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    user-select: none;
+}
+
+button {
+    background-color: black;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container {
+    width: 40%;
+    display: grid;
+    margin: 5% 30%;
+    box-shadow: 0 0 10px 6px #ccc;
+    background-color: black;
+    border-radius: 35px;
+    min-width: 600px;
+}
+
+.hStack {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.vStack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+}
+
+/*** 2. pokedex grid view ***/
 .pokemonGridImage {
-    width: 75px;
+    width: 15%;
 }
 
-.pokemonDetailedImage {
-    width: 200px;
+/*** 3. pokedex info view ***/
+#backButton {
+    color: steelblue;
+    margin: 5%;
+    font-size: 100%;
 }
 
-canvas {
-    height: 15px;
-    width: 100%;
+#pokemonInfoView {
+    padding: 35px;
 }
 
+#infoHeader {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#infoDexNum {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+#infoSpecies {
+    display: grid;
+    justify-content: center;
+}
+
+#infoImage {
+    width: 65%;
+    padding: 5%;
+}
+
+#infoContent {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+#infoEntry {
+    text-align: center;
+}
+
+#infoButton {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 35px;
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+#infoButton > button {
+    background-color: #181818;
+    font-size: 40%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.infoButtonSelected {
+    background-color: #5b5b5b !important;
+}
+
+/*** 4. pokedex sub info view ***/
+#pokemonSubInfoView {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 5%;
+}
+
+/*** 5. data view ***/
 .dataTitle {
     font-weight: bold;
 }
@@ -19,6 +136,39 @@ canvas {
 
 }
 
+.heightWeightLabel {
+    color: #5b5b5b;
+    font-size: 85%;
+}
+
+.heightWeightValue {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#dataHeader {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+#dataHeightDiv {
+}
+
+/*** 6. stats view ***/
+canvas {
+    height: 15px;
+    width: 100%;
+}
+
+/*** 7. types view ***/
+.typeIcon {
+    height: 25px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+/*** 8. type color index  ***/
 .bug {
     background-color: #A6B91A;
 }
@@ -88,10 +238,3 @@ canvas {
 .water {
     background-color: #6390F0;
 }
-
-.typeIcon {
-    height: 25px;
-    border-radius: 15px;
-    padding: 8px;
-}
-

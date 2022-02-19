@@ -33,14 +33,14 @@ function loadDataFromJson() {
             return response.json()
         })
         .then(jsondata => {
-
             pokemons = jsondata
-
-            drawPokedexGridView()
+            // drawPokedexGridView()
+            drawPokemonInfoView(getPokemon("Mega Swampert"))
         })
 }
 
 /*********** DRAW VIEW FUNCTION **********/
+// TODO: grid view
 function drawPokedexGridView() {
     clearView()
 
@@ -72,7 +72,7 @@ function drawPokedexGridView() {
         toDetailViewButton.innerHTML = ">"
 
         // event listeners
-        toDetailViewButton.addEventListener("click", () => { drawPokemonDetailedView(pokemon)})
+        toDetailViewButton.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
 
         // class
         image.classList.add("pokemonGridImage")
@@ -87,7 +87,8 @@ function drawPokedexGridView() {
     }
 }
 
-function drawPokemonDetailedView(pokemon) {
+// TODO: info view
+function drawPokemonInfoView(pokemon) {
     clearView()
 
     // tags
@@ -95,90 +96,35 @@ function drawPokemonDetailedView(pokemon) {
     const infoViewTag = document.createElement("div")
     const subInfoViewTag = document.createElement("div")
     const backButton = document.createElement("button")
-    const name = document.createElement("h1")
-    const species = document.createElement("p")
-    const nationdexNum = document.createElement("p")
-    const image = document.createElement("img")
-    const entry = document.createElement("p")
-    const dataButton = document.createElement("button")
-    const statsButton = document.createElement("button")
-    const typesButton = document.createElement("button")
-
-    // contents
-    backButton.innerHTML = "< Bonsaidex"
-    name.innerHTML = `${pokemon.name}`
-    species.innerHTML = `${pokemon.species}`
-    nationdexNum.innerHTML = getPokedexNumber(pokemon)
-    image.src = getPokemonImagePath(pokemon)
-    entry.innerHTML = pokemon.pokedex.entry
-    dataButton.innerHTML = "Data"
-    statsButton.innerHTML = "Stats"
-    typesButton.innerHTML = "Types"
 
     // attributes
+    backButton.setAttribute('id', "backButton")
     infoViewTag.setAttribute('id', `${infoView}`)
     subInfoViewTag.setAttribute('id', `${subInfoView}`)
-    image.classList.add("pokemonDetailedImage")
-
-    // event listeners
     backButton.addEventListener("click", drawPokedexGridView)
-    dataButton.addEventListener("click", () => { drawDataView(pokemon)} )
-    statsButton.addEventListener("click", () => { drawStatsView(pokemon)} )
-    typesButton.addEventListener("click", () => { drawTypesView(pokemon)} )
 
-    // append tags
+    // content
+    backButton.innerHTML = "< Home"
+
+    // append tag
     viewTag.append(backButton)
     viewTag.append(infoViewTag)
     viewTag.append(subInfoViewTag)
-    infoViewTag.append(name)
-    infoViewTag.append(species)
-    infoViewTag.append(nationdexNum)
-    infoViewTag.append(image)
-    infoViewTag.append(entry)
-    infoViewTag.append(dataButton)
-    infoViewTag.append(statsButton)
-    infoViewTag.append(typesButton)
 
+    // draw views
+    drawInfoHeader(pokemon)
+    drawInfoContent(pokemon)
+    drawInfoButtons(pokemon)
+
+    // default sub view
     drawDataView(pokemon)
 }
 
+// TODO data view
 function drawDataView(pokemon) {
-    clearSubInfoView()
+    clearSubInfoView(0)
 
-    // tags
-    const subInfoViewTag = document.querySelector(`#${subInfoView}`)
-    const heightLabelTag = document.createElement("p")
-    const weightLabelTag = document.createElement("p")
-    const heightValueTag = document.createElement("p")
-    const weightValueTag = document.createElement("p")
-    const typeLabelTag = document.createElement("p")
-    const dividerTag1 = document.createElement("p")
-    const dividerTag2 = document.createElement("p")
-
-    // content
-    heightLabelTag.innerHTML = "Height"
-    weightLabelTag.innerHTML = "Weight"
-    heightValueTag.innerHTML = pokemon.height
-    weightValueTag.innerHTML = pokemon.weight
-    typeLabelTag.innerHTML = "Type"
-    dividerTag1.innerHTML = " | "
-    dividerTag2.innerHTML = " | "
-
-    // append tags
-    subInfoViewTag.append(heightLabelTag)
-    subInfoViewTag.append(heightValueTag)
-    subInfoViewTag.append(dividerTag1)
-    subInfoViewTag.append(typeLabelTag)
-
-    // pokemon types
-    pokemon.types.forEach((type => {
-        drawTypeIcon(type)
-    }))
-
-    // append tags
-    subInfoViewTag.append(dividerTag2)
-    subInfoViewTag.append(weightLabelTag)
-    subInfoViewTag.append(weightValueTag)
+    drawDataHeader(pokemon)
 
     // pokemon ability
     pokemon.abilities.forEach((ability) => {
@@ -194,8 +140,9 @@ function drawDataView(pokemon) {
     drawPokemonEvoChain(pokemon.evolutionNames)
 }
 
+// TODO stats view
 function drawStatsView(pokemon) {
-    clearSubInfoView()
+    clearSubInfoView(1)
     const subInfoViewTag = document.querySelector(`#${subInfoView}`)
 
     /*** STATS ***/
@@ -263,8 +210,9 @@ function drawStatsView(pokemon) {
     })
 }
 
-function drawTypeView(pokemon) {
-    clearSubInfoView()
+// TODO types view
+function drawTypesView(pokemon) {
+    clearSubInfoView(2)
     const chart = getTypeChart(pokemon.types)
 
     drawTitle("Super Effective x4")
@@ -279,7 +227,161 @@ function drawTypeView(pokemon) {
     drawTypesGrid(chart[4])
 }
 
+// TODO helper view
 /*********** DRAW VIEW HELPERS **********/
+function drawDataHeader(pokemon) {
+    // tags
+    const view = document.querySelector(`#${subInfoView}`)
+    const dataDiv = document.createElement("div")
+    const heightDiv = document.createElement("div")
+    const weightDiv = document.createElement("div")
+    const typesDiv = document.createElement("div")
+
+    // attribute
+    dataDiv.setAttribute('id', 'dataHeader')
+    heightDiv.setAttribute('id', 'dataHeightDiv')
+    weightDiv.setAttribute('id', 'dataWeightDiv')
+    typesDiv.setAttribute('id', 'dataTypeDiv')
+
+    // append tags
+    view.append(dataDiv)
+    dataDiv.append(heightDiv)
+    dataDiv.append(typesDiv)
+    dataDiv.append(weightDiv)
+
+    // attribute
+    heightDiv.classList.add("hStack")
+    heightDiv.classList.add("center")
+    typesDiv.classList.add("hStack")
+    typesDiv.classList.add("center")
+    weightDiv.classList.add("hStack")
+    weightDiv.classList.add("center")
+
+    // height
+    const heightTag = drawDataLabel("Height")
+    const heightValue = drawDataValue(pokemon.height.replace(" ", ""))
+    heightDiv.append(heightValue)
+    heightDiv.append(heightTag)
+
+    // pokemon types
+    pokemon.types.forEach((type => {
+        const iconTag = drawTypeIcon(type)
+        typesDiv.append(iconTag)
+    }))
+    const typesLabel = drawDataLabel("Types")
+    typesDiv.append(typesLabel)
+
+    // weight
+    const weightTag = drawDataLabel("Weight")
+    const weightValue = drawDataValue(pokemon.weight)
+    weightDiv.append(weightValue)
+    weightDiv.append(weightTag)
+}
+
+function drawDataValue(value) {
+    const tag = document.createElement("p")
+    tag.innerHTML = value
+    tag.classList.add("heightWeightValue")
+    tag.classList.add("center")
+
+    return tag
+}
+
+function drawDataLabel(text) {
+    const tag = document.createElement("p")
+    tag.innerHTML = text
+    tag.classList.add("heightWeightLabel")
+    tag.classList.add("center")
+
+    return tag
+}
+
+function drawInfoButtons(pokemon) {
+    // tags
+    const view = document.querySelector(`#${infoView}`)
+    const div = document.createElement("div")
+    const data = document.createElement("button")
+    const stats = document.createElement("button")
+    const types = document.createElement("button")
+
+    // contents
+    data.innerHTML = "Data"
+    stats.innerHTML = "Stats"
+    types.innerHTML = "Types"
+
+    // attributes
+    div.setAttribute('id', "infoButton")
+    data.setAttribute('id', "infoDataButton")
+    stats.setAttribute('id', "infoStatsButton")
+    types.setAttribute('id', "infoTypesButton")
+
+    // event listeners
+    data.addEventListener("click", () => { drawDataView(pokemon)} )
+    stats.addEventListener("click", () => { drawStatsView(pokemon)} )
+    types.addEventListener("click", () => { drawTypesView(pokemon)} )
+
+    // append tags
+    view.append(div)
+    div.append(data)
+    div.append(stats)
+    div.append(types)
+}
+
+function drawInfoContent(pokemon) {
+    // tags
+    const view = document.querySelector(`#${infoView}`)
+    const infoContent = document.createElement("div")
+    const image = document.createElement("img")
+    const entry = document.createElement("p")
+
+    // attributes
+    infoContent.setAttribute('id', "infoContent")
+    image.setAttribute('id', 'infoImage')
+    entry.setAttribute('id', 'infoEntry')
+
+    // contents
+    image.src = getPokemonImagePath(pokemon)
+    image.classList.add("center")
+    entry.innerHTML = pokemon.pokedex.entry
+
+    // append tags
+    view.append(infoContent)
+    infoContent.append(image)
+    infoContent.append(entry)
+}
+
+function drawInfoHeader(pokemon) {
+    // tags
+    const view = document.querySelector(`#${infoView}`)
+    const infoHeader = document.createElement("div")
+    const div = document.createElement("div")
+    const hStack = document.createElement("div")
+    const name = document.createElement("h1")
+    const species = document.createElement("p")
+    const dexNum = document.createElement("p")
+
+    // attributes
+    infoHeader.setAttribute('id', 'infoHeader')
+    div.classList.add("group")
+    hStack.classList.add("hStack")
+    name.setAttribute('id', 'infoName')
+    species.setAttribute('id', 'infoSpecies')
+    dexNum.setAttribute('id', 'infoDexNum')
+
+    // contents
+    name.innerHTML = pokemon.name
+    species.innerHTML = pokemon.species
+    dexNum.innerHTML = getPokedexNumber(pokemon)
+
+    // append tags
+    view.append(infoHeader)
+    infoHeader.append(div)
+    hStack.append(name)
+    hStack.append(species)
+    div.append(hStack)
+    infoHeader.append(dexNum)
+}
+
 function drawTypesGrid(types) {
     const view = document.querySelector(`#${subInfoView}`)
 
@@ -320,7 +422,7 @@ function drawPokemonPreview(name) {
 
     // event listner
     image.addEventListener("click", () => {
-        drawPokemonDetailedView(pokemon)
+        drawPokemonInfoView(pokemon)
     })
 
     // append tags
@@ -346,12 +448,13 @@ function drawDataTextView(text) {
 }
 
 function drawTypeIcon(type) {
-    const view = document.querySelector(`#${subInfoView}`)
     const tag = document.createElement("img")
     tag.src = `images/types/${type.toLowerCase()}.svg`
     tag.classList.add(type.toLowerCase())
     tag.classList.add("typeIcon")
-    view.append(tag)
+    tag.style.boxShadow = `0 0 10px 6px #${getTypeCSSHex(type)};`
+
+    return tag
 }
 
 /*********** CLEAR VIEW FUNCTIONS **********/
@@ -362,13 +465,37 @@ function clearView() {
     }
 }
 
-function clearSubInfoView() {
+function clearSubInfoView(selectorIndex) {
     const pokemonSubInfoViewTag = document.querySelector(`#${subInfoView}`)
     while (pokemonSubInfoViewTag.firstChild) {
         pokemonSubInfoViewTag.removeChild(pokemonSubInfoViewTag.firstChild)
     }
+
+    setInfoSelector(selectorIndex)
 }
 
+// TODO: setters
+/*********** SETTERS **********/
+function setInfoSelector(index) {
+    const data = document.querySelector("#infoDataButton")
+    const stats = document.querySelector("#infoStatsButton")
+    const types = document.querySelector("#infoTypesButton")
+    const selectedClassName = "infoButtonSelected"
+
+    data.classList.remove(selectedClassName)
+    types.classList.remove(selectedClassName)
+    stats.classList.remove(selectedClassName)
+
+    if (index === 0) {
+        data.classList.add(selectedClassName)
+    } else if (index === 1) {
+        stats.classList.add(selectedClassName)
+    } else if (index === 2) {
+        types.classList.add(selectedClassName)
+    }
+}
+
+// TODO: getters
 /*********** GETTERS **********/
 function getPokemon(pokemonName) {
     let pokemon = pokemons[pokemonName]
@@ -379,8 +506,6 @@ function getPokemon(pokemonName) {
 
     return pokemon
 }
-
-function getPokedexListView(pokemon) { }
 
 function getPokedexNumber(pokemon) {
     const pokedexNum = `00${pokemon.id}`
@@ -611,4 +736,44 @@ function getTypeChart(types) {
     })
 
     return array
+}
+
+function getTypeCSSHex(type) {
+    if (type === "Bug") {
+        return 'A6B91A'
+    } else if (type === "Dark") {
+        return '705746'
+    } else if (type === "Dragon") {
+        return '6F35FC'
+    } else if (type === "Electric") {
+        return 'F7D02C'
+    } else if (type === "Fairy") {
+        return 'D685AD'
+    } else if (type === "Fighting") {
+        return 'C22E28'
+    } else if (type === "Fire") {
+        return 'EE8130'
+    } else if (type === "Flying") {
+        return 'A98FF3'
+    } else if (type === "Ghost") {
+        return '735797'
+    } else if (type === "Grass") {
+        return '7AC74C'
+    } else if (type === "Ground") {
+        return 'E2BF65'
+    } else if (type === "Ice") {
+        return '96D9D6'
+    } else if (type === "Normal") {
+        return 'A8A77A'
+    } else if (type === "Poison") {
+        return 'A33EA1'
+    } else if (type === "Psychic") {
+        return 'F95587'
+    } else if (type === "Rock") {
+        return 'B6A136'
+    } else if (type === "Steel") {
+        return 'B7B7CE'
+    } else if (type === "Water") {
+        return '6390F0'
+    }
 }
