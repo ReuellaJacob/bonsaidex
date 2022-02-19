@@ -124,20 +124,27 @@ function drawPokemonInfoView(pokemon) {
 function drawDataView(pokemon) {
     clearSubInfoView(0)
 
+    const view = document.querySelector(`#${subInfoView}`)
     drawDataHeader(pokemon)
 
-    // pokemon ability
+    // ablitiies
     pokemon.abilities.forEach((ability) => {
-        drawTitle("Ability")
-        drawDataTextView(ability)
-        drawDataTextView(abilities[ability])
+        const abilityTag = drawDataAbility(ability)
+        view.append(abilityTag)
     })
 
-    // append tag
-    drawTitle("Region")
-    drawDataTextView(getRegion(pokemon))
-    drawTitle("Evolution Chain")
-    drawPokemonEvoChain(pokemon.evolutionNames)
+    // region and egg group
+    const region = drawSection("Region", getRegion(pokemon), "region")
+    const eggGroup = drawSection("Egg Group", pokemon.eggGroup, "eggGroup")
+    view.append(region)
+    view.append(eggGroup)
+
+    // evo chain
+    const evoChain = drawSection("Evolution Chain", "", "evoChain")
+    view.append(evoChain)
+    const evoChainPreview = drawPokemonEvoChain(pokemon.evolutionNames)
+    view.append(evoChainPreview)
+
 }
 
 // TODO stats view
@@ -229,6 +236,36 @@ function drawTypesView(pokemon) {
 
 // TODO helper view
 /*********** DRAW VIEW HELPERS **********/
+function drawSection(title, value, id) {
+    const group = document.createElement("div")
+    const text = drawTitle(title)
+    const content = drawDataTextView(value)
+    const div = document.createElement("div")
+
+    // attibute
+    group.setAttribute('id', id)
+    group.classList.add("section")
+    div.classList.add("group")
+    text.classList.add("sectionTitle")
+    content.classList.add("sectionContent")
+
+    // append tags
+    group.append(text)
+    group.append(content)
+
+    return group
+}
+
+function drawDataAbility(ability) {
+    // tags
+    const abilityTag = drawSection("Ability", ability, "dataAbility")
+    const value = drawAbilitiyDescription(abilities[ability])
+    value.classList.add("abilityValue")
+
+    abilityTag.append(value)
+    return abilityTag
+}
+
 function drawDataHeader(pokemon) {
     // tags
     const view = document.querySelector(`#${subInfoView}`)
@@ -268,7 +305,7 @@ function drawDataHeader(pokemon) {
         const iconTag = drawTypeIcon(type)
         typesDiv.append(iconTag)
     }))
-    const typesLabel = drawDataLabel("Types")
+    const typesLabel = drawDataLabel("Type")
     typesDiv.append(typesLabel)
 
     // weight
@@ -355,7 +392,7 @@ function drawInfoHeader(pokemon) {
     const view = document.querySelector(`#${infoView}`)
     const infoHeader = document.createElement("div")
     const div = document.createElement("div")
-    const hStack = document.createElement("div")
+    const infoHeaderGroup = document.createElement("div")
     const name = document.createElement("h1")
     const species = document.createElement("p")
     const dexNum = document.createElement("p")
@@ -363,7 +400,7 @@ function drawInfoHeader(pokemon) {
     // attributes
     infoHeader.setAttribute('id', 'infoHeader')
     div.classList.add("group")
-    hStack.classList.add("hStack")
+    infoHeaderGroup.classList.add("infoHeaderGroup")
     name.setAttribute('id', 'infoName')
     species.setAttribute('id', 'infoSpecies')
     dexNum.setAttribute('id', 'infoDexNum')
@@ -376,9 +413,9 @@ function drawInfoHeader(pokemon) {
     // append tags
     view.append(infoHeader)
     infoHeader.append(div)
-    hStack.append(name)
-    hStack.append(species)
-    div.append(hStack)
+    infoHeaderGroup.append(name)
+    infoHeaderGroup.append(species)
+    div.append(infoHeaderGroup)
     infoHeader.append(dexNum)
 }
 
@@ -391,60 +428,84 @@ function drawTypesGrid(types) {
 }
 
 function drawPokemonEvoChain(chains) {
-    const view = document.querySelector(`#${subInfoView}`)
+    const div = document.createElement("div")
+    div.classList.add("evoChain")
 
     chains.forEach((chain) => {
         chain.forEach((pokemonName) => {
-            const arrowTag = document.createElement("p")
+            div.style.gridTemplateColumns = `repeat(${chain.length}, 1fr)`
+
+            const groupDiv = document.createElement("div")
+            groupDiv.classList.add("evoGroup")
+
+            const arrowTag = document.createElement("label")
+            arrowTag.classList.add("evoChainLabel")
             arrowTag.innerHTML = ">"
-            view.append(arrowTag)
-            drawPokemonPreview(pokemonName)
+            groupDiv.append(arrowTag)
+
+            const preview = drawPokemonPreview(pokemonName)
+            groupDiv.append(preview)
+
+            div.append(groupDiv)
         })
     })
+
+    return div
 }
 
 function drawPokemonPreview(name) {
     const pokemon = getPokemon(name)
 
     // tags
-    const view = document.querySelector(`#${subInfoView}`)
+    const tag = document.createElement("div")
     const image = document.createElement("img")
     const nameTag = document.createElement("p")
     const nationdexNum = document.createElement("p")
 
     // contents
+    tag.classList.add("pokemonPreview")
     image.src = getPokemonImagePath(pokemon)
+    image.classList.add("previewImage")
     nameTag.innerHTML = pokemon.name
+    nameTag.classList.add("previewName")
     nationdexNum.innerHTML = getPokedexNumber(pokemon)
+    nationdexNum.classList.add("previewDexNum")
 
-    // attributes
-    image.setAttribute('class', 'pokemonGridImage')
-
-    // event listner
+    // event listener
     image.addEventListener("click", () => {
         drawPokemonInfoView(pokemon)
     })
 
     // append tags
-    view.append(image)
-    view.append(nameTag)
-    view.append(nationdexNum)
+    tag.append(image)
+    tag.append(nameTag)
+    tag.append(nationdexNum)
+
+    return tag
 }
 
 function drawTitle(title) {
-    const view = document.querySelector(`#${subInfoView}`)
-    const tag = document.createElement("p")
+    const tag = document.createElement("label")
     tag.innerHTML = `${title}:`
     tag.classList.add("dataTitle")
-    view.append(tag)
+
+    return tag
 }
 
 function drawDataTextView(text) {
-    const view = document.querySelector(`#${subInfoView}`)
-    const tag = document.createElement("p")
+    const tag = document.createElement("label")
     tag.innerHTML = text
     tag.classList.add("dataText")
-    view.append(tag)
+
+    return tag
+}
+
+function drawAbilitiyDescription(description) {
+    const tag = document.createElement("span")
+    tag.innerHTML = description
+    tag.classList.add("abilitiyValue")
+
+    return tag
 }
 
 function drawTypeIcon(type) {

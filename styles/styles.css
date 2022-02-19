@@ -30,21 +30,33 @@ button {
 #container {
     width: 40%;
     display: grid;
-    margin: 5% 30%;
+    margin: 1.5% 30%;
     box-shadow: 0 0 10px 6px #ccc;
     background-color: black;
     border-radius: 35px;
     min-width: 600px;
 }
 
-.hStack {
+.vStack {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
 }
 
-.vStack {
+.hStack {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.section {
+    padding: 10px 15px
+}
+
+.sectionTitle {
+    font-weight: bold;
+}
+
+.sectionContent {
+    font-size: 90%;
 }
 
 .center {
@@ -67,7 +79,7 @@ button {
 }
 
 #pokemonInfoView {
-    padding: 35px;
+    padding: 1% 5%;
 }
 
 #infoHeader {
@@ -83,8 +95,7 @@ button {
 }
 
 #infoSpecies {
-    display: grid;
-    justify-content: center;
+    text-align: center;
 }
 
 #infoImage {
@@ -120,11 +131,16 @@ button {
     background-color: #5b5b5b !important;
 }
 
+.infoHeaderGroup {
+    display: inline-block;
+}
+
+
 /*** 4. pokedex sub info view ***/
 #pokemonSubInfoView {
     display: grid;
     grid-template-rows: auto;
-    padding: 5%;
+    padding: 3% 5%;
 }
 
 /*** 5. data view ***/
@@ -137,7 +153,7 @@ button {
 }
 
 .heightWeightLabel {
-    color: #5b5b5b;
+    color: #909090;
     font-size: 85%;
 }
 
@@ -153,6 +169,53 @@ button {
 
 
 #dataHeightDiv {
+}
+
+#dataAbilitiy {
+    padding: 15px;
+}
+
+.dataTitle{
+    padding-right: 15px;
+}
+
+.abilitiyValue {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 85%;
+    color: #909090;
+}
+
+#regionAndEggGroup {
+    padding: 15px;
+}
+
+.previewImage {
+    width: 75px;
+}
+
+.evoChain {
+    display: grid;
+    /* grid columns set dynamically */
+}
+
+.evoGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.evoChainLabel {
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+.pokemonPreview {
+    text-align: center;
+}
+
+.previewDexNum {
+    color: #909090;
 }
 
 /*** 6. stats view ***/
