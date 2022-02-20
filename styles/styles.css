@@ -21,7 +21,7 @@
 }
 
 button {
-    background-color: black;
+    background-color: #202020;
     border: none;
     display: inline-block;
     text-decoration: none;
@@ -32,7 +32,7 @@ button {
     display: grid;
     margin: 1.5% 30%;
     box-shadow: 0 0 10px 6px #ccc;
-    background-color: black;
+    background-color: #202020;
     border-radius: 35px;
     min-width: 600px;
 }
@@ -116,12 +116,12 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-size: 35px;
-    background-color: #181818;
+    background-color: #343434;
     border-radius: 10px;
 }
 
 #infoButton > button {
-    background-color: #181818;
+    background-color: #343434;
     font-size: 40%;
     padding: 5%;
     border-radius: 10px;
@@ -179,10 +179,10 @@ button {
     padding-right: 15px;
 }
 
-.abilitiyValue {
+.abilityValue {
     padding-top: 10px;
     display: block;
-    text-align: center;
+    margin-left: 5%;
     font-size: 85%;
     color: #909090;
 }
@@ -219,6 +219,20 @@ button {
 }
 
 /*** 6. stats view ***/
+.baseStat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    margin-bottom: 10px;
+}
+
+.baseStatName {
+    text-align: right;
+}
+
+.baseStatValue {
+    text-align: center;
+}
+
 canvas {
     height: 15px;
     width: 100%;

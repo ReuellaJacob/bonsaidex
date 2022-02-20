@@ -34,8 +34,8 @@ function loadDataFromJson() {
         })
         .then(jsondata => {
             pokemons = jsondata
-            // drawPokedexGridView()
-            drawPokemonInfoView(getPokemon("Mega Swampert"))
+            drawPokedexGridView()
+            // drawPokemonInfoView(getPokemon("Mega Swampert"))
         })
 }
 
@@ -117,6 +117,8 @@ function drawPokemonInfoView(pokemon) {
     drawInfoButtons(pokemon)
 
     // default sub view
+    // TODO: set default view
+    // drawStatsView(pokemon)
     drawDataView(pokemon)
 }
 
@@ -129,7 +131,7 @@ function drawDataView(pokemon) {
 
     // ablitiies
     pokemon.abilities.forEach((ability) => {
-        const abilityTag = drawDataAbility(ability)
+        const abilityTag = drawDataAbility(ability, false)
         view.append(abilityTag)
     })
 
@@ -150,70 +152,48 @@ function drawDataView(pokemon) {
 // TODO stats view
 function drawStatsView(pokemon) {
     clearSubInfoView(1)
-    const subInfoViewTag = document.querySelector(`#${subInfoView}`)
+    const view = document.querySelector(`#${subInfoView}`)
 
     /*** STATS ***/
     pokemon.stats.forEach((stat) => {
-        // tags
-        const nameTag = document.createElement("p")
-        const valueTag = document.createElement("p")
-        const barTag = document.createElement("canvas")
-
-        // contents
-        nameTag.innerHTML = stat.name
-        valueTag.innerHTML = stat.value
-        const canvas = barTag.getContext("2d")
-        canvas.rect(0, 0, stat.value, 300)
-        canvas.fillStyle = "blue"
-        canvas.fill()
-
-        // append tags
-        subInfoViewTag.append(nameTag)
-        subInfoViewTag.append(valueTag)
-        subInfoViewTag.append(barTag)
+        const statsTag = drawBaseStats(stat)
+        view.append(statsTag)
     })
 
     /*** HIDDEN ABILITY ***/
     if (pokemon.hiddenAbilities.length === 0) {
-        // tags
-        const hiddenAbility = document.createElement("p")
-        const hiddenAbilityDescription = document.createElement("p")
+        const title = drawSection("Hidden Ability", "", "hiddenAbility")
+        const value = document.createElement("label")
 
-        // contents
-        hiddenAbility.innerHTML = "Hidden Ability: "
-        hiddenAbilityDescription.innerHTML = "Does not know any."
+        value.innerHTML = "does not know any."
+        value.classList.add("abilityValue")
 
-        // append tag
-        subInfoViewTag.append(hiddenAbility)
-        subInfoViewTag.append(hiddenAbilityDescription)
+        view.append(title)
+        view.append(value)
     }
 
     pokemon.hiddenAbilities.forEach((ability) => {
-        // tags
-        const hiddenAbility = document.createElement("p")
-        const hiddenAbilityDescription = document.createElement("p")
-
-        // contents
-        hiddenAbility.innerHTML = `Hidden Ability: ${ability}`
-        hiddenAbilityDescription.innerHTML = abilities[ability]
-
-        // append tags
-        subInfoViewTag.append(hiddenAbility)
-        subInfoViewTag.append(hiddenAbilityDescription)
+        const hiddenAbilityTag = drawDataAbility(ability, true)
+        view.append(hiddenAbilityTag)
     })
 
     /*** FORMS ***/
+    const title = drawSection("Forms", "", "forms")
+    view.append(title)
+
     if (pokemon.forms.length === 0) {
-        const form = document.createElement("p")
-        const noFormText = document.createElement("p")
-        form.innerHTML = "Forms:"
-        noFormText.innerHTML = "Has no other forms."
-        subInfoViewTag.append(form)
-        subInfoViewTag.append(noFormText)
+
+        const value = document.createElement("label")
+
+        value.innerHTML = "Has no other forms."
+        value.classList.add("abilityValue")
+
+        view.append(value)
     }
 
     pokemon.forms.forEach((pokemonName) => {
-        drawPokemonPreview(pokemonName)
+        const form = drawPokemonPreview(pokemonName)
+        view.append(form)
     })
 }
 
@@ -236,6 +216,32 @@ function drawTypesView(pokemon) {
 
 // TODO helper view
 /*********** DRAW VIEW HELPERS **********/
+function drawBaseStats(stat) {
+    // tags
+    const statsDiv = document.createElement("div")
+    const nameTag = document.createElement("label")
+    const valueTag = document.createElement("label")
+    const barTag = document.createElement("canvas")
+
+    // contents
+    statsDiv.classList.add("baseStat")
+    nameTag.innerHTML = stat.name
+    nameTag.classList.add("baseStatName")
+    valueTag.innerHTML = stat.value
+    valueTag.classList.add("baseStatValue")
+    const canvas = barTag.getContext("2d")
+    canvas.rect(0, 0, stat.value, 300)
+    canvas.fillStyle = "blue"
+    canvas.fill()
+
+    // append tags
+    statsDiv.append(nameTag)
+    statsDiv.append(valueTag)
+    statsDiv.append(barTag)
+
+    return statsDiv
+}
+
 function drawSection(title, value, id) {
     const group = document.createElement("div")
     const text = drawTitle(title)
@@ -256,14 +262,14 @@ function drawSection(title, value, id) {
     return group
 }
 
-function drawDataAbility(ability) {
+function drawDataAbility(ability, isHidden) {
     // tags
-    const abilityTag = drawSection("Ability", ability, "dataAbility")
+    const tag = drawSection(isHidden ? "Hidden Ability" : "Ability", ability, isHidden ? "hiddenAbility" : "dataAbility")
     const value = drawAbilitiyDescription(abilities[ability])
     value.classList.add("abilityValue")
 
-    abilityTag.append(value)
-    return abilityTag
+    tag.append(value)
+    return tag
 }
 
 function drawDataHeader(pokemon) {
@@ -457,12 +463,14 @@ function drawPokemonPreview(name) {
     const pokemon = getPokemon(name)
 
     // tags
+    const div = document.createElement("div")
     const tag = document.createElement("div")
     const image = document.createElement("img")
     const nameTag = document.createElement("p")
     const nationdexNum = document.createElement("p")
 
     // contents
+    div.setAttribute('id', 'forms')
     tag.classList.add("pokemonPreview")
     image.src = getPokemonImagePath(pokemon)
     image.classList.add("previewImage")
@@ -477,6 +485,7 @@ function drawPokemonPreview(name) {
     })
 
     // append tags
+    div.append(tag)
     tag.append(image)
     tag.append(nameTag)
     tag.append(nationdexNum)
