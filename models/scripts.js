@@ -35,12 +35,10 @@ function loadDataFromJson() {
         .then(jsondata => {
             pokemons = jsondata
             drawPokedexGridView()
-            // drawPokemonInfoView(getPokemon("Mega Swampert"))
         })
 }
 
 /*********** DRAW VIEW FUNCTION **********/
-// TODO: grid view
 function drawPokedexGridView() {
     clearView()
 
@@ -87,7 +85,6 @@ function drawPokedexGridView() {
     }
 }
 
-// TODO: info view
 function drawPokemonInfoView(pokemon) {
     clearView()
 
@@ -117,12 +114,9 @@ function drawPokemonInfoView(pokemon) {
     drawInfoButtons(pokemon)
 
     // default sub view
-    // TODO: set default view
-    // drawStatsView(pokemon)
     drawDataView(pokemon)
 }
 
-// TODO data view
 function drawDataView(pokemon) {
     clearSubInfoView(0)
 
@@ -146,17 +140,15 @@ function drawDataView(pokemon) {
     view.append(evoChain)
     const evoChainPreview = drawPokemonEvoChain(pokemon.evolutionNames)
     view.append(evoChainPreview)
-
 }
 
-// TODO stats view
 function drawStatsView(pokemon) {
     clearSubInfoView(1)
     const view = document.querySelector(`#${subInfoView}`)
 
     /*** STATS ***/
     pokemon.stats.forEach((stat) => {
-        const statsTag = drawBaseStats(stat)
+        const statsTag = drawBaseStats(stat, getTypeCSSHex(pokemon.types[0]))
         view.append(statsTag)
     })
 
@@ -191,32 +183,50 @@ function drawStatsView(pokemon) {
         view.append(value)
     }
 
+    const formsDiv = document.createElement("div")
+    formsDiv.setAttribute('id', 'formsPreview')
+    formsDiv.style.gridTemplateColumns = `repeat(${pokemon.forms.length}, 1fr)`
+    title.append(formsDiv)
     pokemon.forms.forEach((pokemonName) => {
         const form = drawPokemonPreview(pokemonName)
-        view.append(form)
+        formsDiv.append(form)
     })
 }
 
-// TODO types view
 function drawTypesView(pokemon) {
     clearSubInfoView(2)
-    const chart = getTypeChart(pokemon.types)
+    const view = document.querySelector(`#${subInfoView}`)
+    const div = document.createElement("div")
+    div.setAttribute('id', 'types')
 
-    drawTitle("Super Effective x4")
-    drawTypesGrid(chart[0])
-    drawTitle("Super Effective x2")
-    drawTypesGrid(chart[1])
-    drawTitle("Super Effective x0.5")
-    drawTypesGrid(chart[2])
-    drawTitle("Super Effective x0.25")
-    drawTypesGrid(chart[3])
-    drawTitle("Immunity")
-    drawTypesGrid(chart[4])
+    view.append(div)
+
+    const chart = getTypeChart(pokemon.types)
+    const effectiveX4 = drawTitle("Super Effective x4")
+    const type1 = drawTypesGrid(chart[0])
+    const effectiveX2 = drawTitle("Super Effective x2")
+    const type2 = drawTypesGrid(chart[1])
+    const effectiveXHalf = drawTitle("Super Effective x0.5")
+    const type3 = drawTypesGrid(chart[2])
+    const effectiveXQuarter = drawTitle("Super Effective x0.25")
+    const type4 = drawTypesGrid(chart[3])
+    const immunity = drawTitle("Immunity")
+    const type5 = drawTypesGrid(chart[4])
+
+    div.append(effectiveX4)
+    div.append(type1)
+    div.append(effectiveX2)
+    div.append(type2)
+    div.append(effectiveXHalf)
+    div.append(type3)
+    div.append(effectiveXQuarter)
+    div.append(type4)
+    div.append(immunity)
+    div.append(type5)
 }
 
-// TODO helper view
 /*********** DRAW VIEW HELPERS **********/
-function drawBaseStats(stat) {
+function drawBaseStats(stat, hexColor) {
     // tags
     const statsDiv = document.createElement("div")
     const nameTag = document.createElement("label")
@@ -230,9 +240,11 @@ function drawBaseStats(stat) {
     valueTag.innerHTML = stat.value
     valueTag.classList.add("baseStatValue")
     const canvas = barTag.getContext("2d")
-    canvas.rect(0, 0, stat.value, 300)
-    canvas.fillStyle = "blue"
-    canvas.fill()
+    const gradient = canvas.createLinearGradient(0, 0, 100, 0)
+    gradient.addColorStop(0, "#343434")
+    gradient.addColorStop(1, `#${hexColor}`)
+    canvas.fillStyle = gradient
+    canvas.fillRect(0, 15, `${stat.value*2}`, 300)
 
     // append tags
     statsDiv.append(nameTag)
@@ -426,11 +438,15 @@ function drawInfoHeader(pokemon) {
 }
 
 function drawTypesGrid(types) {
-    const view = document.querySelector(`#${subInfoView}`)
+    const div = document.createElement("div")
+    div.classList.add("types")
 
     types.forEach((type) => {
-        drawTypeIcon(type)
+        const typeIcon = drawTypeIcon(type)
+        div.append(typeIcon)
     })
+
+    return div
 }
 
 function drawPokemonEvoChain(chains) {
@@ -463,15 +479,13 @@ function drawPokemonPreview(name) {
     const pokemon = getPokemon(name)
 
     // tags
-    const div = document.createElement("div")
-    const tag = document.createElement("div")
+    const preview = document.createElement("div")
     const image = document.createElement("img")
     const nameTag = document.createElement("p")
     const nationdexNum = document.createElement("p")
 
     // contents
-    div.setAttribute('id', 'forms')
-    tag.classList.add("pokemonPreview")
+    preview.classList.add("pokemonPreview")
     image.src = getPokemonImagePath(pokemon)
     image.classList.add("previewImage")
     nameTag.innerHTML = pokemon.name
@@ -485,12 +499,11 @@ function drawPokemonPreview(name) {
     })
 
     // append tags
-    div.append(tag)
-    tag.append(image)
-    tag.append(nameTag)
-    tag.append(nationdexNum)
+    preview.append(image)
+    preview.append(nameTag)
+    preview.append(nationdexNum)
 
-    return tag
+    return preview
 }
 
 function drawTitle(title) {
@@ -522,7 +535,7 @@ function drawTypeIcon(type) {
     tag.src = `images/types/${type.toLowerCase()}.svg`
     tag.classList.add(type.toLowerCase())
     tag.classList.add("typeIcon")
-    tag.style.boxShadow = `0 0 10px 6px #${getTypeCSSHex(type)};`
+    tag.style.boxShadow = `0 0 5px 4px #${getTypeCSSHex(type)}`
 
     return tag
 }
@@ -544,7 +557,6 @@ function clearSubInfoView(selectorIndex) {
     setInfoSelector(selectorIndex)
 }
 
-// TODO: setters
 /*********** SETTERS **********/
 function setInfoSelector(index) {
     const data = document.querySelector("#infoDataButton")
@@ -565,7 +577,6 @@ function setInfoSelector(index) {
     }
 }
 
-// TODO: getters
 /*********** GETTERS **********/
 function getPokemon(pokemonName) {
     let pokemon = pokemons[pokemonName]
@@ -812,38 +823,38 @@ function getTypeCSSHex(type) {
     if (type === "Bug") {
         return 'A6B91A'
     } else if (type === "Dark") {
-        return '705746'
+        return '736C75'
     } else if (type === "Dragon") {
-        return '6F35FC'
+        return '6A7BAF'
     } else if (type === "Electric") {
-        return 'F7D02C'
+        return 'E5C531'
     } else if (type === "Fairy") {
-        return 'D685AD'
+        return 'E397D1'
     } else if (type === "Fighting") {
-        return 'C22E28'
+        return 'CB5F48'
     } else if (type === "Fire") {
-        return 'EE8130'
+        return 'EA7A3C'
     } else if (type === "Flying") {
-        return 'A98FF3'
+        return '7DA6DE'
     } else if (type === "Ghost") {
-        return '735797'
+        return '846AB6'
     } else if (type === "Grass") {
-        return '7AC74C'
+        return '71C558'
     } else if (type === "Ground") {
-        return 'E2BF65'
+        return 'CC9F4F'
     } else if (type === "Ice") {
-        return '96D9D6'
+        return '70CBD4'
     } else if (type === "Normal") {
-        return 'A8A77A'
+        return 'AAB09F'
     } else if (type === "Poison") {
-        return 'A33EA1'
+        return 'B468B7'
     } else if (type === "Psychic") {
-        return 'F95587'
+        return 'E5709B'
     } else if (type === "Rock") {
-        return 'B6A136'
+        return 'B2A061'
     } else if (type === "Steel") {
-        return 'B7B7CE'
+        return '89A1B0'
     } else if (type === "Water") {
-        return '6390F0'
+        return '539AE2'
     }
 }
