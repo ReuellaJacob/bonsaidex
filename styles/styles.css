@@ -239,10 +239,16 @@ canvas {
 }
 
 /*** 7. types view ***/
+#types {
+    display: grid;
+    row-gap: 10px;
+}
+
 .typeIcon {
     height: 25px;
     border-radius: 15px;
     padding: 8px;
+    margin-right: 10px;
 }
 
 /*** 8. type color index  ***/
@@ -251,67 +257,67 @@ canvas {
 }
 
 .dark {
-    background-color: #705746;
+    background-color: #736C75;
 }
 .dargon {
-    background-color: #6F35FC;
+    background-color: #6A7BAF;
 }
 
 .electric {
-    background-color: #F7D02C;
+    background-color: #E5C531;
 }
 
 .fairy {
-    background-color: #D685AD;
+    background-color: #E397D1;
 }
 
 .fighting {
-    background-color: #C22E28;
+    background-color: #CB5F48;
 }
 .fire {
-    background-color: #EE8130;
+    background-color: #EA7A3C;
 }
 
 .flying {
-    background-color: #A98FF3;
+    background-color: #7DA6DE;
 }
 
 .ghost {
-    background-color: #735797;
+    background-color: #846AB6;
 }
 
 .grass {
-    background-color: #7AC74C;
+    background-color: #71C558;
 }
 
 .ground {
-    background-color: #E2BF65;
+    background-color: #CC9F4F;
 }
 
 .ice {
-    background-color: #96D9D6;
+    background-color: #70CBD4;
 }
 
 .normal {
-    background-color: #A8A77A;
+    background-color: #AAB09F;
 }
 
 .poison {
-    background-color: #A33EA1;
+    background-color: #B468B7;
 }
 
 .psychic {
-    background-color: #F95587;
+    background-color: #E5709B;
 }
 
 .rock {
-    background-color: #B6A136;
+    background-color: #B2A061;
 }
 
 .steel {
-    background-color: #B7B7CE;
+    background-color: #89A1B0;
 }
 
 .water {
-    background-color: #6390F0;
+    background-color: #539AE2;
 }
