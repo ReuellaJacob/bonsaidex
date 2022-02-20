@@ -78,6 +78,10 @@ button {
     font-size: 100%;
 }
 
+#pokemonMainView {
+    margin: 5px;
+}
+
 #pokemonInfoView {
     padding: 1% 5%;
 }
@@ -236,6 +240,13 @@ button {
 canvas {
     height: 20px;
     width: 100%;
+}
+
+#formsPreview {
+    display: grid;
+    column-gap: 15px;
+    margin-top: 10px;
+    /* columns will be generated dynamically */
 }
 
 /*** 7. types view ***/
