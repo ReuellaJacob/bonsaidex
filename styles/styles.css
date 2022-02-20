@@ -74,16 +74,12 @@ button {
 /*** 3. pokedex info view ***/
 #backButton {
     color: steelblue;
-    margin: 5%;
     font-size: 100%;
+    margin: 2%;
 }
 
 #pokemonMainView {
-    margin: 5px;
-}
-
-#pokemonInfoView {
-    padding: 1% 5%;
+    margin: 7%;
 }
 
 #infoHeader {
@@ -144,7 +140,6 @@ button {
 #pokemonSubInfoView {
     display: grid;
     grid-template-rows: auto;
-    padding: 3% 5%;
 }
 
 /*** 5. data view ***/
