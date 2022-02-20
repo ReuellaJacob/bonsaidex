@@ -234,7 +234,7 @@ button {
 }
 
 canvas {
-    height: 15px;
+    height: 20px;
     width: 100%;
 }
 
@@ -246,9 +246,9 @@ canvas {
 
 .typeIcon {
     height: 25px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 8px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /*** 8. type color index  ***/
