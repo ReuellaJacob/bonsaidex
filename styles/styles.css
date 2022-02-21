@@ -1,4 +1,3 @@
-
 /*** table of contents ***/
 /** 1. global
  *  2. pokedex grid view
@@ -19,8 +18,7 @@
     padding: 0;
     color: whitesmoke;
     user-select: none;
-    background-color: #202020;
-;
+    background-color: #202020;;
 }
 
 button {
@@ -112,22 +110,22 @@ header {
     justify-content: space-around;
 }
 
-.pokemonName{
+.pokemonName {
     text-align: center;
     margin: 0.2rem;
 }
 
-.pokemonEtymology{
+.pokemonEtymology {
     text-align: center;
     font-size: 60%;
     letter-spacing: 1px;
     margin: 0.1rem;
 }
 
-.pokemonNationdexNum{
+.pokemonNationdexNum {
     padding: 1%;
     width: 30%;
-    font-size:80%;
+    font-size: 80%;
     letter-spacing: 0px;
     text-align: center;
     background-color: #343434;
@@ -250,7 +248,7 @@ header {
     padding: 15px;
 }
 
-.dataTitle{
+.dataTitle {
     padding-right: 15px;
 }
 
@@ -342,6 +340,7 @@ canvas {
 .dark {
     background-color: #736C75;
 }
+
 .dargon {
     background-color: #6A7BAF;
 }
@@ -357,6 +356,7 @@ canvas {
 .fighting {
     background-color: #CB5F48;
 }
+
 .fire {
     background-color: #EA7A3C;
 }
