@@ -51,34 +51,23 @@ function drawPokedexGridView() {
     title.innerHTML = "Bonsaidex"
     mainViewTag.append(title)
 
-    // populate all pokemon to pokedex list
+    // add container to implement flexbox
     const gridContainer = document.createElement("div")
     gridContainer.id = "pokemonGridContainer"
     mainViewTag.append(gridContainer)
 
-    let count = 0;
+    // populate all pokemon to pokedex list
     for (const pokemonName of pokemonNames) {
         const pokemon = getPokemon(pokemonName)
         console.log(pokemon);
 
         // tags
         const gridView = document.createElement("div")
-        gridView.classList.add("pokemonGrid")
-
         const image = document.createElement("img")
-        image.classList.add("pokemonImage")
-
         const name = document.createElement("p")
-        name.classList.add("pokemonName")
-
         const etymology = document.createElement("p")
-        etymology.classList.add("pokemonEtymology")
-
         const nationdexNum = document.createElement("p")
-        nationdexNum.classList.add("pokemonNationdexNum")
-
-        const toDetailViewButton = document.createElement("button")
-        toDetailViewButton.id = "detailButton"
+        // const toDetailViewButton = document.createElement("button")
 
         // contents
         // image.src = getPokemonImagePath(pokemon)
@@ -86,22 +75,29 @@ function drawPokedexGridView() {
         name.innerHTML = `${pokemon.name}`
         etymology.innerHTML = `${pokemon.etymology}`
         nationdexNum.innerHTML = getPokedexNumber(pokemon)
-        toDetailViewButton.innerHTML = "Info"
+        // toDetailViewButton.innerHTML = "Info"
 
         // event listeners
-        toDetailViewButton.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
+        gridView.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
+        // toDetailViewButton.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
 
         // class
-        image.classList.add("pokemonGridImage")
+        // image.classList.add("pokemonGridImage")
+        gridView.classList.add("pokemonGrid")
+        image.classList.add("pokemonImage")
+        name.classList.add("pokemonName")
+        etymology.classList.add("pokemonEtymology")
+        nationdexNum.classList.add("pokemonNationdexNum")
+        // toDetailViewButton.id = "detailButton"
+
 
         // append tags
-
         gridContainer.append(gridView)
         gridView.append(image)
         gridView.append(nationdexNum)
         gridView.append(name)
         gridView.append(etymology)
-        gridView.append(toDetailViewButton)
+        // gridView.append(toDetailViewButton)
     }
 }
 
