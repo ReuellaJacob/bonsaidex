@@ -47,7 +47,7 @@ function drawPokedexGridView() {
     const pokemonNames = Object.keys(pokemons)
     const mainViewTag = document.querySelector(`#${mainView}`)
 
-    const title = document.createElement("h1")
+    const title = document.createElement("header")
     title.innerHTML = "Bonsaidex"
     title.classList.add("pokedexTitle")
     mainViewTag.append(title)
