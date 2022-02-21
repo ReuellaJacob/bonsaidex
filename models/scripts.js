@@ -106,8 +106,8 @@ function drawPokemonInfoView(pokemon) {
 
     // tags
     const viewTag = document.querySelector(`#${mainView}`)
-    const infoViewTag = document.createElement("div")
-    const subInfoViewTag = document.createElement("div")
+    const infoViewTag = document.createElement("section")
+    const subInfoViewTag = document.createElement("section")
     const backButton = document.createElement("button")
 
     // attributes
@@ -271,15 +271,13 @@ function drawBaseStats(stat, hexColor) {
 }
 
 function drawSection(title, value, id) {
-    const group = document.createElement("div")
+    const group = document.createElement("article")
     const text = drawTitle(title)
     const content = drawDataTextView(value)
-    const div = document.createElement("div")
 
     // attibute
     group.setAttribute('id', id)
     group.classList.add("section")
-    div.classList.add("group")
     text.classList.add("sectionTitle")
     content.classList.add("sectionContent")
 
@@ -303,7 +301,7 @@ function drawDataAbility(ability, isHidden) {
 function drawDataHeader(pokemon) {
     // tags
     const view = document.querySelector(`#${subInfoView}`)
-    const dataDiv = document.createElement("div")
+    const dataDiv = document.createElement("article")
     const heightDiv = document.createElement("div")
     const weightDiv = document.createElement("div")
     const typesDiv = document.createElement("div")
@@ -370,7 +368,7 @@ function drawDataLabel(text) {
 function drawInfoButtons(pokemon) {
     // tags
     const view = document.querySelector(`#${infoView}`)
-    const div = document.createElement("div")
+    const div = document.createElement("article")
     const data = document.createElement("button")
     const stats = document.createElement("button")
     const types = document.createElement("button")
@@ -401,7 +399,7 @@ function drawInfoButtons(pokemon) {
 function drawInfoContent(pokemon) {
     // tags
     const view = document.querySelector(`#${infoView}`)
-    const infoContent = document.createElement("div")
+    const infoContent = document.createElement("article")
     const image = document.createElement("img")
     const entry = document.createElement("p")
 
@@ -424,7 +422,7 @@ function drawInfoContent(pokemon) {
 function drawInfoHeader(pokemon) {
     // tags
     const view = document.querySelector(`#${infoView}`)
-    const infoHeader = document.createElement("div")
+    const infoHeader = document.createElement("article")
     const div = document.createElement("div")
     const infoHeaderGroup = document.createElement("div")
     const name = document.createElement("h1")
@@ -466,7 +464,7 @@ function drawTypesGrid(types) {
 }
 
 function drawPokemonEvoChain(chains) {
-    const div = document.createElement("div")
+    const div = document.createElement("article")
     div.classList.add("evoChain")
 
     chains.forEach((chain) => {

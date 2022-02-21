@@ -351,7 +351,6 @@ canvas {
     height: 25px;
     border-radius: 20px;
     padding: 8px;
-    margin-right: 15px;
 }
 
 /*** 8. type color index  ***/
@@ -363,7 +362,7 @@ canvas {
     background-color: #736C75;
 }
 
-.dargon {
+.dragon {
     background-color: #6A7BAF;
 }
 
