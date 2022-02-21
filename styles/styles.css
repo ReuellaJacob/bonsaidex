@@ -9,6 +9,7 @@
  *  7. type view
  *  8. type color index
  *  9. search bar
+ *  10. media screens
  */
 
 /*** 1. global ***/
@@ -38,6 +39,11 @@ h1 {
 header {
     font-size: xxx-large;
     margin: 3% 0;
+}
+
+footer {
+    margin: 0.2rem;
+    padding: 0.2rem;
 }
 
 #container {
@@ -342,7 +348,7 @@ canvas {
 .dark {
     background-color: #736C75;
 }
-.dargon {
+.dragon {
     background-color: #6A7BAF;
 }
 
@@ -406,10 +412,7 @@ canvas {
 
 }
 
-footer {
-    margin: 0.2rem;
-    padding: 0.2rem;
-}
+/*** 10. media screens  ***/
 
 @media screen and (max-width: 820px) {
     .previewImage {

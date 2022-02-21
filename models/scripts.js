@@ -35,7 +35,7 @@ function loadDataFromJson() {
         .then(jsondata => {
             pokemons = jsondata
             drawPokedexGridView()
-            // drawPokemonInfoView(getPokemon("Mega Swampert"))
+            // drawPokemonInfoView(getPokemon("Shellos (East)"))
         })
 }
 
@@ -60,7 +60,6 @@ function drawPokedexGridView() {
     // populate all pokemon to pokedex list
     for (const pokemonName of pokemonNames) {
         const pokemon = getPokemon(pokemonName)
-        console.log(pokemon);
 
         // tags
         const gridView = document.createElement("div")
@@ -611,11 +610,10 @@ function getPokedexNumber(pokemon) {
 }
 
 function getPokemonImagePath(pokemon) {
-    if (pokemons[pokemon.name] === undefined) {
-        return `images/pokemons/${pokemon.name}.imageset/${pokemon.name}.png`
-    }
+    let imagePath = `images/pokemons/${pokemon.name}.imageset/`
+    imagePath += pokemons[pokemon.name] === undefined ? `${pokemon.name}.png` : `${pokemon.id}.png`
 
-    return `images/pokemons/${pokemon.name}.imageset/${pokemon.id}.png`
+    return imagePath
 }
 
 function getRegion(pokemon) {

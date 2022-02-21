@@ -2332,11 +2332,11 @@
         },
         "etymology": "gourd and poltergeist"
     },
-    "Zygarde (10%)": {
+    "Zygarde (10)": {
         "id": 718,
-        "name": "Zygarde (10%)",
+        "name": "Zygarde (10)",
         "forms": [
-            "Zygarde (50%)",
+            "Zygarde (50)",
             "Zygarde (Complete)"
         ],
         "types": [
@@ -2391,8 +2391,8 @@
         "id": 718,
         "name": "Zygarde (Complete)",
         "forms": [
-            "Zygarde (10%)",
-            "Zygarde (50%)"
+            "Zygarde (10)",
+            "Zygarde (50)"
         ],
         "types": [
             "Dragon",
