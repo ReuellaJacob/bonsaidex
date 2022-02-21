@@ -34,8 +34,23 @@ h1 {
 }
 
 header {
-    padding: 3% 3% 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     margin: 0;
+}
+
+#logo {
+    order: 1;
+    width: 8%;
+    height: 8%;
+    margin: 5% 2% 2% 0;
+}
+
+#headerTitle {
+    order: 2;
+    margin-bottom: 0;
 }
 
 #container {

@@ -46,6 +46,19 @@ function drawPokedexGridView() {
     const pokemonNames = Object.keys(pokemons)
     const mainViewTag = document.querySelector(`#${mainView}`)
 
+    // creating header
+    const header = document.createElement("header")
+    const heading = document.createElement("h1")
+    const logo = document.createElement("img")
+    logo.id = "logo"
+    heading.id = "headerTitle"
+    heading.innerHTML = "Bonsaidex"
+    logo.src = "images/logo/pokeball2.png"
+
+    header.append(logo)
+    header.append(heading)
+    mainViewTag.append(header)
+
     // add container to implement flexbox
     const gridContainer = document.createElement("div")
     gridContainer.id = "pokemonGridContainer"
@@ -62,28 +75,22 @@ function drawPokedexGridView() {
         const name = document.createElement("p")
         const etymology = document.createElement("p")
         const nationdexNum = document.createElement("p")
-        // const toDetailViewButton = document.createElement("button")
 
         // contents
         image.src = getPokemonImagePath(pokemon)
-        // image.src = "images/pokemons/Mega Lopunny.imageset/Mega Lopunny.png"
         name.innerHTML = `${pokemon.name}`
         etymology.innerHTML = `${pokemon.etymology}`
         nationdexNum.innerHTML = getPokedexNumber(pokemon)
-        // toDetailViewButton.innerHTML = "Info"
 
         // event listeners
         gridView.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
-        // toDetailViewButton.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
 
         // class
-        // image.classList.add("pokemonGridImage")
         gridView.classList.add("pokemonGrid")
         image.classList.add("pokemonImage")
         name.classList.add("pokemonName")
         etymology.classList.add("pokemonEtymology")
         nationdexNum.classList.add("pokemonNationdexNum")
-        // toDetailViewButton.id = "detailButton"
 
 
         // append tags
@@ -92,7 +99,6 @@ function drawPokedexGridView() {
         gridView.append(nationdexNum)
         gridView.append(name)
         gridView.append(etymology)
-        // gridView.append(toDetailViewButton)
     }
 }
 
