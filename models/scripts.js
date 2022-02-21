@@ -35,6 +35,7 @@ function loadDataFromJson() {
         .then(jsondata => {
             pokemons = jsondata
             drawPokedexGridView()
+            // drawPokemonInfoView(getPokemon("Mega Swampert"))
         })
 }
 
@@ -51,23 +52,41 @@ function drawPokedexGridView() {
     mainViewTag.append(title)
 
     // populate all pokemon to pokedex list
+    const gridContainer = document.createElement("div")
+    gridContainer.id = "pokemonGridContainer"
+    mainViewTag.append(gridContainer)
+
+    let count = 0;
     for (const pokemonName of pokemonNames) {
         const pokemon = getPokemon(pokemonName)
+        console.log(pokemon);
 
         // tags
         const gridView = document.createElement("div")
+        gridView.classList.add("pokemonGrid")
+
         const image = document.createElement("img")
+        image.classList.add("pokemonImage")
+
         const name = document.createElement("p")
+        name.classList.add("pokemonName")
+
         const etymology = document.createElement("p")
+        etymology.classList.add("pokemonEtymology")
+
         const nationdexNum = document.createElement("p")
+        nationdexNum.classList.add("pokemonNationdexNum")
+
         const toDetailViewButton = document.createElement("button")
+        toDetailViewButton.id = "detailButton"
 
         // contents
-        image.src = getPokemonImagePath(pokemon)
+        // image.src = getPokemonImagePath(pokemon)
+        image.src = "images/pokemons/Mega Lopunny.imageset/Mega Lopunny.png"
         name.innerHTML = `${pokemon.name}`
         etymology.innerHTML = `${pokemon.etymology}`
         nationdexNum.innerHTML = getPokedexNumber(pokemon)
-        toDetailViewButton.innerHTML = ">"
+        toDetailViewButton.innerHTML = "Info"
 
         // event listeners
         toDetailViewButton.addEventListener("click", () => { drawPokemonInfoView(pokemon)})
@@ -76,11 +95,12 @@ function drawPokedexGridView() {
         image.classList.add("pokemonGridImage")
 
         // append tags
-        mainViewTag.append(gridView)
+
+        gridContainer.append(gridView)
         gridView.append(image)
+        gridView.append(nationdexNum)
         gridView.append(name)
         gridView.append(etymology)
-        gridView.append(nationdexNum)
         gridView.append(toDetailViewButton)
     }
 }
