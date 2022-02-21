@@ -34,8 +34,8 @@ h1 {
 }
 
 header {
-    font-size: xxx-large;
-    margin: 3% 0;
+    padding: 3% 3% 0 15%;
+    margin: 0;
 }
 
 #container {

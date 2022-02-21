@@ -35,7 +35,6 @@ function loadDataFromJson() {
         .then(jsondata => {
             pokemons = jsondata
             drawPokedexGridView()
-            // drawPokemonInfoView(getPokemon("Mega Swampert"))
         })
 }
 
@@ -46,11 +45,6 @@ function drawPokedexGridView() {
     // properties
     const pokemonNames = Object.keys(pokemons)
     const mainViewTag = document.querySelector(`#${mainView}`)
-
-    const title = document.createElement("header")
-    title.innerHTML = "Bonsaidex"
-    title.classList.add("pokedexTitle")
-    mainViewTag.append(title)
 
     // add container to implement flexbox
     const gridContainer = document.createElement("div")
