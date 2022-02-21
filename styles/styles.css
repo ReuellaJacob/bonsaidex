@@ -8,6 +8,7 @@
  *  6. stats view
  *  7. type view
  *  8. type color index
+ *  9. search bar
  */
 
 /*** 1. global ***/
@@ -18,6 +19,8 @@
     padding: 0;
     color: whitesmoke;
     user-select: none;
+    background-color: #202020;
+;
 }
 
 button {
@@ -27,13 +30,15 @@ button {
     text-decoration: none;
 }
 
+h1 {
+    font-size: xxx-large;
+    margin: 3% 0;
+}
+
 #container {
-    width: 40%;
+    width: 100%;
     display: grid;
-    margin: 1.5% 30%;
-    box-shadow: 0 0 10px 6px #ccc;
     background-color: #202020;
-    border-radius: 35px;
     min-width: 600px;
 }
 
@@ -67,18 +72,19 @@ button {
 }
 
 /*** 2. pokedex grid view ***/
-
 #pokemonGridContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 100%;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    /*margin: 0 auto;*/
+    /*width: 100%;*/
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .pokemonGrid {
-    width: 27%;
+    width: 90%;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -142,7 +148,7 @@ button {
 }
 
 #pokemonMainView {
-    margin: 7%;
+    margin: 3% 15% 20%;
 }
 
 #infoHeader {
@@ -162,7 +168,7 @@ button {
 }
 
 #infoImage {
-    width: 65%;
+    width: 30%;
     padding: 5%;
 }
 
@@ -269,7 +275,7 @@ button {
 }
 
 .evoChainLabel {
-    margin-top: 25%;
+    margin-top: 15%;
     margin-right: 10%;
 }
 
@@ -390,4 +396,5 @@ canvas {
 
 .water {
     background-color: #539AE2;
+
 }

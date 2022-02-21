@@ -49,6 +49,7 @@ function drawPokedexGridView() {
 
     const title = document.createElement("h1")
     title.innerHTML = "Bonsaidex"
+    title.classList.add("pokedexTitle")
     mainViewTag.append(title)
 
     // add container to implement flexbox
@@ -70,8 +71,8 @@ function drawPokedexGridView() {
         // const toDetailViewButton = document.createElement("button")
 
         // contents
-        // image.src = getPokemonImagePath(pokemon)
-        image.src = "images/pokemons/Mega Lopunny.imageset/Mega Lopunny.png"
+        image.src = getPokemonImagePath(pokemon)
+        // image.src = "images/pokemons/Mega Lopunny.imageset/Mega Lopunny.png"
         name.innerHTML = `${pokemon.name}`
         etymology.innerHTML = `${pokemon.etymology}`
         nationdexNum.innerHTML = getPokedexNumber(pokemon)
@@ -559,9 +560,7 @@ function drawTypeIcon(type) {
 /*********** CLEAR VIEW FUNCTIONS **********/
 function clearView() {
     const pokemonViewTag = document.querySelector(`#${mainView}`)
-    while (pokemonViewTag.firstChild) {
-        pokemonViewTag.removeChild(pokemonViewTag.firstChild)
-    }
+    pokemonViewTag.innerHTML = ""
 }
 
 function clearSubInfoView(selectorIndex) {
