@@ -8,6 +8,7 @@
  *  7. type view
  *  8. type color index
  *  9. search bar
+ *  10. media screens
  */
 
 /*** 1. global ***/
@@ -18,7 +19,7 @@
     padding: 0;
     color: whitesmoke;
     user-select: none;
-    background-color: #202020;;
+    background-color: #202020;
 }
 
 button {
@@ -51,6 +52,11 @@ header {
 #headerTitle {
     order: 2;
     margin-bottom: 0;
+}
+
+footer {
+    margin: 0.2rem;
+    padding: 0.2rem;
 }
 
 #container {
@@ -421,10 +427,7 @@ canvas {
 
 }
 
-footer {
-    margin: 0.2rem;
-    padding: 0.2rem;
-}
+/*** 10. media screens  ***/
 
 @media screen and (max-width: 820px) {
     .previewImage {

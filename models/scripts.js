@@ -67,7 +67,6 @@ function drawPokedexGridView() {
     // populate all pokemon to pokedex list
     for (const pokemonName of pokemonNames) {
         const pokemon = getPokemon(pokemonName)
-        console.log(pokemon);
 
         // tags
         const gridView = document.createElement("div")
