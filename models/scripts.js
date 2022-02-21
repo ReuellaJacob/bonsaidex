@@ -474,9 +474,9 @@ function drawPokemonEvoChain(chains) {
             const groupDiv = document.createElement("div")
             groupDiv.classList.add("evoGroup")
 
-            const arrowTag = document.createElement("label")
+            const arrowTag = document.createElement("img")
             arrowTag.classList.add("evoChainLabel")
-            arrowTag.innerHTML = ">"
+            arrowTag.src = "images/logo/arrow-right-solid.svg"
             groupDiv.append(arrowTag)
 
             const preview = drawPokemonPreview(pokemonName)

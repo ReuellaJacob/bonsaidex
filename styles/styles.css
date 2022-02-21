@@ -301,8 +301,9 @@ footer {
 }
 
 .evoChainLabel {
-    margin-top: 15%;
+    /*margin-top: %;*/
     margin-right: 10%;
+    width: 1rem;
 }
 
 .pokemonPreview {
@@ -435,8 +436,9 @@ canvas {
     }
 
     .evoChainLabel {
-        margin-top: 25%;
+        margin-top: -3%;
         margin-right: 10%;
+        width: 0.7rem;
     }
 
     #infoImage {
@@ -468,8 +470,9 @@ canvas {
     }
 
     .evoChainLabel {
-        margin-top: 30%;
+        margin-top: -15%;
         margin-right: 10%;
+        width: 0.6rem;
     }
 
     #infoImage {
