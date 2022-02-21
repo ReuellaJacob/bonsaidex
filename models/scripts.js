@@ -35,7 +35,6 @@ function loadDataFromJson() {
         .then(jsondata => {
             pokemons = jsondata
             drawPokedexGridView()
-            // drawPokemonInfoView(getPokemon("Shellos (East)"))
         })
 }
 
@@ -46,11 +45,6 @@ function drawPokedexGridView() {
     // properties
     const pokemonNames = Object.keys(pokemons)
     const mainViewTag = document.querySelector(`#${mainView}`)
-
-    const title = document.createElement("header")
-    title.innerHTML = "Bonsaidex"
-    title.classList.add("pokedexTitle")
-    mainViewTag.append(title)
 
     // add container to implement flexbox
     const gridContainer = document.createElement("div")
@@ -610,10 +604,11 @@ function getPokedexNumber(pokemon) {
 }
 
 function getPokemonImagePath(pokemon) {
-    let imagePath = `images/pokemons/${pokemon.name}.imageset/`
-    imagePath += pokemons[pokemon.name] === undefined ? `${pokemon.name}.png` : `${pokemon.id}.png`
+    if (pokemons[pokemon.name] === undefined) {
+        return `images/pokemons/${pokemon.name}.imageset/${pokemon.name}.png`
+    }
 
-    return imagePath
+    return `images/pokemons/${pokemon.name}.imageset/${pokemon.id}.png`
 }
 
 function getRegion(pokemon) {

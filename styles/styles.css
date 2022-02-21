@@ -37,8 +37,8 @@ h1 {
 }
 
 header {
-    font-size: xxx-large;
-    margin: 3% 0;
+    padding: 3% 3% 0 15%;
+    margin: 0;
 }
 
 footer {
@@ -363,6 +363,7 @@ canvas {
 .fighting {
     background-color: #CB5F48;
 }
+
 .fire {
     background-color: #EA7A3C;
 }
