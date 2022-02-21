@@ -261,10 +261,11 @@ h1 {
 }
 
 .previewImage {
-    width: 75px;
+    width: 30%;
 }
 
 .evoChain {
+    margin: 25px;
     display: grid;
     /* grid columns set dynamically */
 }
