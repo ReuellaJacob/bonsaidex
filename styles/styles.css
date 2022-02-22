@@ -290,7 +290,7 @@ footer {
 }
 
 .evoChain {
-    margin: 25px;
+    /*margin: 25px;*/
     display: grid;
     /* grid columns set dynamically */
 }
@@ -337,7 +337,7 @@ canvas {
 #formsPreview {
     display: grid;
     column-gap: 15px;
-    margin-top: 10px;
+    margin: 25px;
     grid-template-columns: repeat(3, 1fr);
     /* columns will be generated dynamically */
 }

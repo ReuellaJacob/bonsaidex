@@ -34,7 +34,10 @@ function loadDataFromJson() {
         })
         .then(jsondata => {
             pokemons = jsondata
-            drawPokedexGridView()
+
+            // TODO reset default view
+            // drawPokedexGridView()
+            drawPokemonInfoView(getPokemon("Mewtwo"))
         })
 }
 
@@ -153,8 +156,8 @@ function drawDataView(pokemon) {
 
     // evo chain
     const evoChain = drawSection("Evolution Chain", "", "evoChain")
-    view.append(evoChain)
     const evoChainPreview = drawPokemonEvoChain(pokemon.evolutionNames)
+    view.append(evoChain)
     view.append(evoChainPreview)
 }
 
@@ -201,6 +204,7 @@ function drawStatsView(pokemon) {
 
     const formsDiv = document.createElement("div")
     formsDiv.setAttribute('id', 'formsPreview')
+
     formsDiv.style.gridTemplateColumns = `repeat(${pokemon.forms.length}, 1fr)`
     title.append(formsDiv)
     pokemon.forms.forEach((pokemonName) => {
@@ -464,29 +468,36 @@ function drawTypesGrid(types) {
 }
 
 function drawPokemonEvoChain(chains) {
-    const div = document.createElement("article")
-    div.classList.add("evoChain")
+    const articleTag = document.createElement("article")
+    articleTag.classList.add("evoChain")
 
     chains.forEach((chain) => {
-        chain.forEach((pokemonName) => {
-            div.style.gridTemplateColumns = `repeat(${chain.length}, 1fr)`
+        if (chain.length === 0 ) {
+            const tag = document.createElement("p")
+            tag.classList.add("abilityValue")
+            tag.innerHTML = "Does not evolve."
+            articleTag.append(tag)
+        } else {
+            chain.forEach((pokemonName) => {
+                articleTag.style.gridTemplateColumns = `repeat(${chain.length}, 1fr)`
 
-            const groupDiv = document.createElement("div")
-            groupDiv.classList.add("evoGroup")
+                const groupSection = document.createElement("section")
+                groupSection.classList.add("evoGroup")
 
-            const arrowTag = document.createElement("img")
-            arrowTag.classList.add("evoChainLabel")
-            arrowTag.src = "images/logo/arrow-right-solid.svg"
-            groupDiv.append(arrowTag)
+                const arrowTag = document.createElement("img")
+                arrowTag.classList.add("evoChainLabel")
+                arrowTag.src = "images/logo/arrow-right-solid.svg"
+                groupSection.append(arrowTag)
 
-            const preview = drawPokemonPreview(pokemonName)
-            groupDiv.append(preview)
+                const preview = drawPokemonPreview(pokemonName)
+                groupSection.append(preview)
 
-            div.append(groupDiv)
-        })
+                articleTag.append(groupSection)
+            })
+        }
     })
 
-    return div
+    return articleTag
 }
 
 function drawPokemonPreview(name) {
